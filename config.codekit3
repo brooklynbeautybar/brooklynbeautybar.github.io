@@ -1176,7 +1176,7 @@
 		"oAP": "/assets/img/gallery-75-1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-75-2.jpg": {
@@ -1187,7 +1187,7 @@
 		"oAP": "/assets/img/gallery-75-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-75-3.jpg": {
@@ -1198,7 +1198,7 @@
 		"oAP": "/assets/img/gallery-75-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-75-4.jpg": {
@@ -1209,7 +1209,7 @@
 		"oAP": "/assets/img/gallery-75-4.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-75-5.jpg": {
@@ -1220,7 +1220,7 @@
 		"oAP": "/assets/img/gallery-75-5.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-75-6.jpg": {
@@ -1231,7 +1231,7 @@
 		"oAP": "/assets/img/gallery-75-6.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-75-7.jpg": {
@@ -1242,7 +1242,7 @@
 		"oAP": "/assets/img/gallery-75-7.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/gallery-90-4.jpg": {
