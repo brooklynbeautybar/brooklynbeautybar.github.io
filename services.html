@@ -286,7 +286,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       appendScroll: (window.isScroll) ? window : $('.content')
     });
   });
-</script>     
+</script>
+    
+<!-- Panel Top #library/panel/panel-top-10.html -->
+<nav class="panel top">
+  <div class="sections">
+    <div class="left"><a href="/index.html" title="Brooklyn Beauty Bar"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use></svg></span></div>
+  </div>
+</nav>
+    
+<script src="https://rawcdn.githack.com/eisbehr-/jquery.lazy/d1c9c3257304d5542a67e3cad8a20c7638753ba7/jquery.lazy.min.js"></script>
+<script>
+  $(function() {
+    $('.lazy').Lazy({
+      effect: 'fadeIn',
+      effectTime: 500,
+      appendScroll: (window.isScroll) ? window : $('.content')
+    });
+  });
+</script>
+    
+<!-- Brooklyn Online -->
+<nav class="panel top firstSlideOnly">
+  <div class="sections">
+    <div class="center">
+      <ul class="menu uppercase">
+        <li><a href="https://www.brooklynbazaar.com.au/" title="Brooklyn Bazaar - Shop Online">BAZAAR</a></li>
+        <li><a href="https://www.beautygifts.com.au/" title="Beauty Gifts - Gift Cards">GIFTS</a></li>
+        <li><a href="https://beautie.com.au/by-appointment-only/" title="By Appointment Only - The Podcast">PODCAST</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>    
+
+<!-- Sidebar -->
+<nav class="sidebar black animated" data-sidebar-id="1">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <a href="/index.html#brooklynbeautybar" class="logo"><svg width="120" height="50"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>
+    <ul class="mainMenu margin-top-3">
+      <li><a href="/index.html#about" class="ae-2">Beauty Services</a></li>
+      <li><a href="/index.html#parties" class="ae-3">Parties</a></li>
+      <li><a href="/index.html#hair" class="ae-4">Hair & Makeup</a></li>
+      <li><a href="/index.html#bar" class="ae-5">Cocktail & Gin Bar</a></li>
+    </ul>
+    <ul class="subMenu small opacity-8 fromRight">
+      <li><a href="/index.html#blog" class="ae-6">Beauty Blog</a></li>
+      <li><a href="/index.html#prices" class="ae-7">Prices</a></li>
+      <li><a href="/index.html#careers" class="ae-8">Careers</a></li>
+      <li><a href="/index.html#media" class="ae-9">Media</a></li>
+      <li><a href="/index.html#brands" class="ae-10">Salon Brands</a></li>
+      <li><a href="/index.html#contact" class="ae-10">Contact Us</a></li>
+    </ul>
+    <ul class="social opacity-8">
+      <li><a href="https://facebook.com/brooklynbeautybar" title="Brooklyn Beauty Bar Facebook" target="_blank" class="ae-6"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+      <li><a href="https://instagram.com/brooklynbeautybar" title="Brooklyn Beauty Bar Instagram" target="_blank" class="ae-7"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+      <li><a href="https://www.pinterest.com.au/brooklynbeautyb/" title="Brooklyn Beauty Bar Pinterest" target="_blank" class="ae-8"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>
+      <li><a href="https://twitter.com/bklynbeautybar" title="Brooklyn Beauty Bar Twitter" target="_blank" class="ae-9"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+      <li><a href="http://brooklynbeautybar.tumblr.com/" title="Brooklyn Beauty Bar Tumblr" target="_blank" class="ae-10"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#tumblr"></use></svg></a></li>
+    </ul>
+  </div>
+</nav>    
     
 <!-- Beauty Services -->
 <section data-name="services" data-title="Beauty Services" class="slide exclude fade-6 scenic">
