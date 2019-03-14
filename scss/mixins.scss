@@ -24,30 +24,36 @@
 	}
 }
 
+//saturate preserving grayscale 
+@function saturate-maybe($color, $amount) {
+  @return if(saturation($color) <= 0.01, $color, saturate($color, $amount));
+}
+
 // Color Mixin (colors.scss)
 @mixin generateColors($name, $color, $pair: #fff){
 	.#{$name} {
-			background: $color !important;
+		background: $color !important;
 
-			@if $pair == #fff {
-				 color:$pair !important;
+		@if $pair == #fff {
+			 color:$pair !important;
 
-				 svg {
-						fill:$pair !important;
-				 }
-			} @else {
-				 color:$pair!important;
+			 svg {
+					fill:$pair !important;
+			 }
+		} @else {
+			 color:$pair!important;
 
-				 svg {
-						fill:$pair !important;
-				 }
-			}
+			 svg {
+					fill:$pair !important;
+			 }
+		}
 
-			@if $color == #fff {
-				.slide.whiteSlide & {
-					box-shadow: 0 0 0 1px rgba(41, 41, 41, 0.2) inset, inset 0 -100px 0 rgba(41, 41, 41, 0);
-				}
-			}
+		// @if $color == #fff {
+		// 	.slide.whiteSlide & {
+		// 		/* base: */
+		// 		box-shadow: 0 1px 2px 0 rgba(0,0,0,0.10), 0 1px 4px 0 rgba(0,0,0,0.10);
+		// 	}
+		// }
 	}
 	 
 	//for stroke buttons
@@ -66,7 +72,6 @@
 		svg {
 			fill: $color !important;
 		}
-
 	}
 }
 

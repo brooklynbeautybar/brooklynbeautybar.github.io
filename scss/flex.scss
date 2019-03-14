@@ -1,4 +1,3 @@
-/* Welcome new Grid! */
 .flex {
   display:flex;
   flex-wrap:wrap;
@@ -23,7 +22,7 @@
     }
   }
 
-  &>.noSpaces {
+  &.noSpaces {
     margin-left:0;
     margin-right:0;
 
@@ -36,6 +35,14 @@
   /* alignments */
   &.verticalCenter {
     align-items: center;  
+  }
+  
+  &.verticalBottom {
+    align-items: flex-end;  
+  }
+
+  &.horizontalCenter {
+    justify-content: center;
   }
 
   &.reverse {
