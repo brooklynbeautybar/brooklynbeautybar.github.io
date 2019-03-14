@@ -806,11 +806,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/beccacosmetics.png": {
+	"/assets/img/becca-cosmetics.png": {
 		"ft": 32768,
 		"iS": 104808,
 		"oA": 0,
-		"oAP": "/assets/img/beccacosmetics.png",
+		"oAP": "/assets/img/becca-cosmetics.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -822,6 +822,17 @@
 		"iS": 7234,
 		"oA": 0,
 		"oAP": "/assets/img/bite-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/black-magic-tan.png": {
+		"ft": 32768,
+		"iS": 160997,
+		"oA": 0,
+		"oAP": "/assets/img/black-magic-tan.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -861,11 +872,11 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/assets/img/booki.png": {
+	"/assets/img/booki-brow-co.png": {
 		"ft": 32768,
 		"iS": 4690,
 		"oA": 0,
-		"oAP": "/assets/img/booki.png",
+		"oAP": "/assets/img/booki-brow-co.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -881,204 +892,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-adidas.png": {
-		"ft": 32768,
-		"iS": 2040,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-adidas.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-apple.png": {
-		"ft": 32768,
-		"iS": 857,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-apple.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-audi.png": {
-		"ft": 32768,
-		"iS": 2646,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-audi.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-bbc.png": {
-		"ft": 32768,
-		"iS": 1040,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-bbc.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-canon.png": {
-		"ft": 32768,
-		"iS": 1865,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-canon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-coca-cola.png": {
-		"ft": 32768,
-		"iS": 3642,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-coca-cola.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-facebook.png": {
-		"ft": 32768,
-		"iS": 1888,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-google.png": {
-		"ft": 32768,
-		"iS": 1995,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-google.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-greenpeace.png": {
-		"ft": 32768,
-		"iS": 2836,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-greenpeace.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-microsoft.png": {
-		"ft": 32768,
-		"iS": 1936,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-microsoft.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-national-geographic.png": {
-		"ft": 32768,
-		"iS": 3138,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-national-geographic.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-nbc.png": {
-		"ft": 32768,
-		"iS": 1681,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-nbc.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-nike.png": {
-		"ft": 32768,
-		"iS": 1779,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-nike.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-playstation.png": {
-		"ft": 32768,
-		"iS": 1094,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-playstation.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-reebok.png": {
-		"ft": 32768,
-		"iS": 2024,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-reebok.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-sony.png": {
-		"ft": 32768,
-		"iS": 1756,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-sony.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-vimeo.png": {
-		"ft": 32768,
-		"iS": 2092,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-vimeo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/brand-68-warner-bros.png": {
-		"ft": 32768,
-		"iS": 2132,
-		"oA": 0,
-		"oAP": "/assets/img/brand-68-warner-bros.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/assets/img/brands-brisbane-beauty.JPG": {
@@ -1270,11 +1083,33 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/assets/img/drspiller.png": {
+	"/assets/img/dr-spiller.png": {
 		"ft": 32768,
 		"iS": 46349,
 		"oA": 0,
-		"oAP": "/assets/img/drspiller.png",
+		"oAP": "/assets/img/dr-spiller.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/dyson.png": {
+		"ft": 32768,
+		"iS": 6119,
+		"oA": 0,
+		"oAP": "/assets/img/dyson.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/eles-cosmetics.png": {
+		"ft": 32768,
+		"iS": 29345,
+		"oA": 0,
+		"oAP": "/assets/img/eles-cosmetics.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1331,138 +1166,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/assets/img/gallery-69-1.jpg": {
-		"ft": 16384,
-		"iS": 54628,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-2.jpg": {
-		"ft": 16384,
-		"iS": 50407,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-3.jpg": {
-		"ft": 16384,
-		"iS": 53268,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-4.jpg": {
-		"ft": 16384,
-		"iS": 70819,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-5.jpg": {
-		"ft": 16384,
-		"iS": 46016,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-6.jpg": {
-		"ft": 16384,
-		"iS": 49763,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-full-1.jpg": {
-		"ft": 16384,
-		"iS": 54127,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-full-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-full-2.jpg": {
-		"ft": 16384,
-		"iS": 49831,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-full-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-full-3.jpg": {
-		"ft": 16384,
-		"iS": 55762,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-full-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-full-4.jpg": {
-		"ft": 16384,
-		"iS": 64625,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-full-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-full-5.jpg": {
-		"ft": 16384,
-		"iS": 46683,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-full-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-69-full-6.jpg": {
-		"ft": 16384,
-		"iS": 49792,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-69-full-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/assets/img/gallery-75-1.jpg": {
@@ -1537,83 +1240,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/gallery-75-7.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-77-1.jpg": {
-		"ft": 16384,
-		"iS": 45664,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-77-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-77-2.jpg": {
-		"ft": 16384,
-		"iS": 53993,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-77-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-77-3.jpg": {
-		"ft": 16384,
-		"iS": 43250,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-77-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-77-4.jpg": {
-		"ft": 16384,
-		"iS": 47727,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-77-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-90-1.jpg": {
-		"ft": 16384,
-		"iS": 49543,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-90-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-90-2.jpg": {
-		"ft": 16384,
-		"iS": 25445,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-90-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/assets/img/gallery-90-3.jpg": {
-		"ft": 16384,
-		"iS": 51405,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/assets/img/gallery-90-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1748,6 +1374,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/indira.png": {
+		"ft": 32768,
+		"iS": 6611,
+		"oA": 0,
+		"oAP": "/assets/img/indira.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/iphone-73.png": {
 		"ft": 32768,
 		"iS": 918979,
@@ -1766,6 +1403,17 @@
 		"oAP": "/assets/img/ipl.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"/assets/img/kevin-murphy.png": {
+		"ft": 32768,
+		"iS": 56795,
+		"oA": 0,
+		"oAP": "/assets/img/kevin-murphy.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/img/lashes-classic-lash-extensions.jpg": {
 		"ft": 16384,
@@ -1882,6 +1530,28 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/assets/img/morphe.png": {
+		"ft": 32768,
+		"iS": 142587,
+		"oA": 0,
+		"oAP": "/assets/img/morphe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/muk-haircare.png": {
+		"ft": 32768,
+		"iS": 3796,
+		"oA": 0,
+		"oAP": "/assets/img/muk-haircare.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/nails-advanced-treatments.jpg": {
 		"ft": 16384,
 		"iS": 11084430,
@@ -1945,6 +1615,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/spray-tan-vani-t.jpg": {
+		"ft": 16384,
+		"iS": 199606,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/spray-tan-vani-t.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/spray-tanning-st-tropez.jpg": {
+		"ft": 16384,
+		"iS": 276423,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/spray-tanning-st-tropez.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/st-tropez.png": {
 		"ft": 32768,
 		"iS": 117134,
@@ -2002,6 +1694,28 @@
 		"iS": 5549,
 		"oA": 0,
 		"oAP": "/assets/img/vani-t.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/velvet-concepts.png": {
+		"ft": 32768,
+		"iS": 12598,
+		"oA": 0,
+		"oAP": "/assets/img/velvet-concepts.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/young-nails.png": {
+		"ft": 32768,
+		"iS": 37022,
+		"oA": 0,
+		"oAP": "/assets/img/young-nails.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
