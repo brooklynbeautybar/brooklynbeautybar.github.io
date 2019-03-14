@@ -1155,6 +1155,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/brows-extensions.jpg": {
+		"ft": 16384,
+		"iS": 10764459,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/brows-extensions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/brows-threading.jpg": {
+		"ft": 16384,
+		"iS": 9157938,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/brows-threading.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/brows-tinting-lightening.jpg": {
+		"ft": 16384,
+		"iS": 15827582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/brows-tinting-lightening.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/brows-waxing.jpg": {
+		"ft": 16384,
+		"iS": 10233254,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/brows-waxing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/assets/img/brows.gif": {
 		"ft": 4194304,
 		"iS": 1656129,
@@ -1255,6 +1299,28 @@
 		"oAP": "/assets/img/facial.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"/assets/img/facials-dermal-cocktails.jpg": {
+		"ft": 16384,
+		"iS": 12337387,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/facials-dermal-cocktails.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/facials-herbal-peels.jpg": {
+		"ft": 16384,
+		"iS": 4580,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/facials-herbal-peels.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/assets/img/facialsskin.jpg": {
 		"ft": 16384,
@@ -1564,6 +1630,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/assets/img/glow-and-go-facials.jpg": {
+		"ft": 16384,
+		"iS": 15307146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/glow-and-go-facials.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/hair-removal-ipl.jpg": {
+		"ft": 16384,
+		"iS": 125497,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hair-removal-ipl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/hair-removal-threading.jpg": {
+		"ft": 16384,
+		"iS": 139407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hair-removal-threading.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/hair-removal-waxing.jpg": {
+		"ft": 16384,
+		"iS": 118914,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/hair-removal-waxing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/hair.gif": {
 		"ft": 4194304,
 		"iS": 2326932,
@@ -1657,6 +1767,50 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/assets/img/lashes-classic-lash-extensions.jpg": {
+		"ft": 16384,
+		"iS": 121238,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lashes-classic-lash-extensions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lashes-lash-lifts.jpg": {
+		"ft": 16384,
+		"iS": 142685,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lashes-lash-lifts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lashes-russian-lash-extensions.jpg": {
+		"ft": 16384,
+		"iS": 258726,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lashes-russian-lash-extensions.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/lashes-tints.jpg": {
+		"ft": 16384,
+		"iS": 132034,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/lashes-tints.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/lashes.gif": {
 		"ft": 4194304,
 		"iS": 1974140,
@@ -1727,6 +1881,28 @@
 		"oAP": "/assets/img/mid-week-upgrades.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"/assets/img/nails-advanced-treatments.jpg": {
+		"ft": 16384,
+		"iS": 11084430,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/nails-advanced-treatments.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/assets/img/nails-luxury-treatments.jpg": {
+		"ft": 16384,
+		"iS": 1883628,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/nails-luxury-treatments.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
 		},
 	"/assets/img/nails.gif": {
 		"ft": 4194304,
