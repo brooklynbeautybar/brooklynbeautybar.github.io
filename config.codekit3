@@ -366,6 +366,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/7tips.jpg": {
+		"ft": 16384,
+		"iS": 101336,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/7tips.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/assets/img/appstore.jpg": {
 		"ft": 16384,
 		"iS": 10803,
@@ -1170,6 +1181,17 @@
 		"oAP": "/assets/img/by-appointment-only-podcast.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"/assets/img/by-appointment-only.jpg": {
+		"ft": 16384,
+		"iS": 45417,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/by-appointment-only.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/assets/img/cnd-logo.png": {
 		"ft": 32768,
@@ -2156,6 +2178,14 @@
 		"oAP": "/nails.html",
 		"oF": 0
 		},
+	"/parties.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/parties.html",
+		"oF": 0
+		},
 	"/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2349,6 +2379,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/site.webmanifest",
+		"oF": 0
+		},
+	"/soundcloud.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/soundcloud.html",
 		"oF": 0
 		},
 	"/storygram.html": {

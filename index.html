@@ -79,42 +79,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
   })();
 </script>
-
-<script>
-  $(function(){
-    if (!window.isMobile) {
-      $(".background.youtube").mb_YTPlayer();
-    }
-  });
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-96620060-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PB72TFD');</script>
-<!-- End Google Tag Manager -->
-
-<script>
-  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-  insertBefore(d,q)}(window,document,'script','_gs');
-
-  _gs('GSN-108268-J');
-</script>
-
         <script src="//flyspy.co/tracking/js/iframeResizer.contentWindow.min.js"></script>
 <script type="text/javascript">if (typeof hmtracker == 'undefined') { window.hmtParentUrl = "//flyspy.co/tracking/"; var hmt_script = document.createElement('script'),hmt_purl = encodeURIComponent(location.href).replace('.', '~');hmt_script.type = "text/javascript";hmt_script.src = "//flyspy.co/tracking/?projectname=Insited&uid=4d96382aa46913e4e93299ab067ac9f1eb4b8269&purl="+hmt_purl;document.getElementsByTagName('head')[0].appendChild(hmt_script);} var hmtParallaxScript = document.createElement('script'); hmtParallaxScript.src = "//flyspy.co/tracking/js/parallax-script.js"; document.head.appendChild(hmtParallaxScript); </script>
 
@@ -149,10 +113,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     });
 });
 </script>
-
-
+    
 </head>
-<body class="slides plain smooth vertical smoothScroll animated noPreload">
+<body class="slides plain smooth vertical smoothScroll animated">
 
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
@@ -312,6 +275,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     transform-origin: 0%;
   }
 </style>
+    
+<script src="https://rawcdn.githack.com/eisbehr-/jquery.lazy/d1c9c3257304d5542a67e3cad8a20c7638753ba7/jquery.lazy.min.js"></script>
+<script>
+  $(function() {
+    $('.lazy').Lazy({
+      effect: 'fadeIn',
+      effectTime: 500,
+      appendScroll: (window.isScroll) ? window : $('.content')
+    });
+  });
+</script>    
 
 <!-- Brooklyn Beauty Bar Home -->
 <section data-name="brooklynbeautybar" data-title="Brooklyn Beauty Bar" class="slide fade-3 scenic">
@@ -418,7 +392,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Upgrades Dialog -->
 	<div class="dialog hidden black" data-dialog-id="upgrades">
 		<div class="close" data-dialog-action="close"></div>
-		<a class="popupTrigger" data-popup-id="upgrades"><img src="https://brooklynbeautybar.github.io/assets/img/mid-week-upgrades.gif" class="wide" alt="img"/></a>
+		<a class="popupTrigger" data-popup-id="upgrades"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/mid-week-upgrades.gif" class="lazy wide" alt="img"/></a>
 		<div class="dialogContent">
 			<div class="text center">
 				<strong>MID WEEK UPGRADES</strong>
@@ -482,44 +456,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="container">
       <div class="wrap">
 
-        <div class="fix-11-12">
-          <ul class="flex reverse">
-            <li class="col-6-12 left box-73">
-              <h1 class="ae-2">Brooklyn Parties</h1>
-              <p class="ae-3"><span class="opacity-8">Experience an evening of pure indulgence like no other, with all of your gal (or guy!) pals.</span></p>
-            </li>
-            <li class="col-6-12 left ae-1 fromAbove">
-              <img class="shiftImage shiftImageVertical image-73" src="https://brooklynbeautybar.github.io/assets/img/brooklyn-beauty-bar-parties-invite.png" width="825" data-action="zoom" alt="You're Invited!"/>
-            </li>
-          </ul>
-
-
-          <div class="fix-11-12">
-            <ul class="grid fixedSpaces equal left grid-73">
-              <li class="col-4-12 ae-3">
-                <a class="cell-73 rounded equalElement button rounded empty videoThumbnail noShadow popupTrigger ae-3" data-popup-id="experience">
-                    <p>The Experience</p>
-                  </a>
-              </li>
-              <li class="col-4-12 ae-4">
-                <a href="#" class="cell-73 rounded equalElement">
-                  <i class="material-icons">hot_tub</i>
-                  <h3>Party Packages</h3>
-                  <p class="tiny opacity-6">Learn more about our many party packages here.</p>
-                </a>
-              </li>
-              <li class="col-4-12 ae-6">
-                <a href="#" class="cell-73 rounded equalElement last">
-                  <i class="material-icons"><i class='material-icons'>
-  format_list_bulleted
-</i></i>
-                  <h3>Our Prices</h3>
-                  <p class="tiny opacity-6">Brooklyn Beauty Bar party price lists.</p>
-                </a>
-              </li>
-            </ul>
+        <div class="fix-9-12">
+          <div class="fix-3-12">
+            <svg height="77" class="wide ae-1 fromCenter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
           </div>
+          <div class="ae-2 margin-top-2">
+            <h1 class="ae-1">Parties</h1>
+            <p class="small"><span class="opacity-8">*all parties require 100% deposit 7 days before the booking</span></p>
+          </div>
+          <a class="button white stroke square ae-4 popupTrigger" data-popup-id="experience">THE EXPERIENCE</a><a class="button white stroke square ae-4 popupTrigger" data-popup-id="packages">PACKAGES</a><a class="button white square ae-4 popupTrigger" data-popup-id="booknow">BOOK NOW</a>
         </div>
+
       </div>
     </div>
   </div>
@@ -541,6 +488,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
   </div>
 </div>
+    
+    <!-- Party Packages -->
+<div class="popup fullscreen" data-popup-id="packages">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+        <div class="popupContent embedVideo">
+          <iframe src="/parties.html" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>      
 
 <!-- Cocktail & Gin Bar -->
 <section data-name="bar" data-title="Cocktail & Gin Bar" class="slide fade-6 scenic">
@@ -572,7 +533,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div class="container">
       <div class="wrap">
         <div class="popupContent embedVideo">
-          <iframe src="https://goo.gl/V3BjsL" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdwgnfW2HTqkbxnxbiRmN6DuSLEN_5Y__PP6oaKG_ZbZH53tw/viewform" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
         </div>
       </div>
     </div>
@@ -701,7 +662,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="col-3-12">
               <a href="#" class="box-77 shadowHover opacity-9 ae-3">
                 <div class="thumbnail-77">
-                  <img src="https://brooklynbeautybar.github.io/assets/img/eyesglamour.jpg" alt="Brooklyn Beauty Bar Brows & Lashes" class="wide"/>
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/eyesglamour.jpg" alt="Brooklyn Beauty Bar Brows & Lashes" class="lazy wide"/>
                 </div>
                 <div class="details-77 equalElement black">
                   <div class="table wide">
@@ -709,7 +670,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <h3>Brows & Lashes</h3>
                       <p class="tiny cropBottom">Brisbane's Best Brows & Lashes</p>
                       <div class="author-77 black">
-                        <img width="30" class="avatar-77" src="assets/img/avatar-77-1.jpg" alt="Avatar">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" width="30" class="avatar-77" data-src="assets/img/avatar-77-1.jpg" alt="Brows & Lashes">
                         <p class="tiny cropBottom">LEARN MORE</p>
                       </div>
                     </div>
@@ -720,7 +681,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="col-3-12">
               <a class="box-77 shadowHover opacity-9 ae-4">
                 <div class="thumbnail-77 popupTrigger" data-popup-id="77-9">
-                  <img src="https://brooklynbeautybar.github.io/assets/img/facialsskin.jpg" alt="Brooklyn Beauty Bar Face & Body" class="wide"/>
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/facialsskin.jpg" alt="Brooklyn Beauty Bar Face & Body" class="lazy wide"/>
                 </div>
                 <div class="details-77 equalElement black">
                   <div class="table wide">
@@ -728,7 +689,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <h3>Face & Body</h3>
                       <p class="tiny cropBottom">A Rejuvenating Experience</p>
                       <div class="author-77 black">
-                        <img width="30" class="avatar-77" src="assets/img/avatar-77-2.jpg" alt="Avatar">
+                        <img width="30" class="avatar-77" src="assets/img/avatar-77-2.jpg" alt="Face & Body">
                         <p class="tiny cropBottom">LEARN MORE</p>
                       </div>
                     </div>
@@ -739,7 +700,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="col-3-12">
               <a href="#" class="box-77 shadowHover opacity-9 ae-5">
                 <div class="thumbnail-77">
-                  <img src="https://brooklynbeautybar.github.io/assets/img/bodymakeup.jpg" alt="Brooklyn Beauty Bar Hair & Makeup" class="wide"/>
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/bodymakeup.jpg" alt="Brooklyn Beauty Bar Hair & Makeup" class="lazy wide"/>
                 </div>
                 <div class="details-77 equalElement black">
                   <div class="table wide">
@@ -747,7 +708,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <h3>Hair & Makeup</h3>
                       <p class="tiny cropBottom">Salon Upstyles & Cosmetics</p>
                       <div class="author-77 black">
-                        <img width="30" class="avatar-77" src="assets/img/avatar-77-3.jpg" alt="Avatar">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" width="30" class="lazy avatar-77" data-src="assets/img/avatar-77-3.jpg" alt="Hair & Makeup">
                         <p class="tiny cropBottom">LEARN MORE</p>
                       </div>
                     </div>
@@ -758,7 +719,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li class="col-3-12">
               <a href="#" class="box-77 shadowHover opacity-9 ae-6">
                 <div class="thumbnail-77">
-                  <img src="https://brooklynbeautybar.github.io/assets/img/nails.jpg" alt="Brooklyn Beauty Bar Nails" class="wide"/>
+                  <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/nails.jpg" alt="Brooklyn Beauty Bar Nails" class="lazy wide"/>
                 </div>
                 <div class="details-77 equalElement black">
                   <div class="table wide">
@@ -766,7 +727,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       <h3>Nails</h3>
                       <p class="tiny cropBottom">Acrylic & Gel Polish</p>
                       <div class="author-77 black">
-                        <img width="30" class="avatar-77" src="assets/img/avatar-77-2.jpg" alt="Avatar">
+                        <img width="30" class="avatar-77" src="assets/img/avatar-77-2.jpg" alt="Nails">
                         <p class="tiny cropBottom">LEARN MORE</p>
                       </div>
                     </div>
@@ -1053,32 +1014,32 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             
             <!-- element -->
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-1">
-              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="https://brooklynbeautybar.github.io/assets/img/background/img-01.jpg"/></div><strong>Zoe & Benji Marshall</strong>The Great Day Out</div>
+              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-01.jpg" class="lazy"/></div><strong>Zoe & Benji Marshall</strong>The Great Day Out</div>
             </li>
 
             <!-- element -->
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-2">
-              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="https://brooklynbeautybar.github.io/assets/img/background/img-91.jpg"/></div><strong>Girl's Night Out</strong>The Great Day Out</div>
+              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-91.jpg" class="lazy"/></div><strong>Girl's Night Out</strong>The Great Day Out</div>
             </li>
 
             <!-- element -->
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-3">
-              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="https://brooklynbeautybar.github.io/assets/img/background/img-56.jpg"/></div><strong>Booki Brow Co</strong>Brooklyn Bazaar</div>
+              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-56.jpg" class="lazy"/></div><strong>Booki Brow Co</strong>Brooklyn Bazaar</div>
             </li>
 
             <!-- element -->
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-1">
-              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="https://brooklynbeautybar.github.io/assets/img/background/img-68.jpg"/></div><strong>Brisbane's Best Beauty Salon</strong>Brooklyn Beauty Bar</div>
+              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-68.jpg" class="lazy"/></div><strong>Brisbane's Best Beauty Salon</strong>Brooklyn Beauty Bar</div>
             </li>
 
             <!-- element -->
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-2">
-              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="https://brooklynbeautybar.github.io/assets/img/background/img-69.jpg"/></div><strong>Beauty Bar & Salon</strong>Big Review TV</div>
+              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-69.jpg" class="lazy"/></div><strong>Beauty Bar & Salon</strong>Big Review TV</div>
             </li>
 
             <!-- element -->
             <li class="col-4-12 col-tablet-1-2 col-phablet-1-1 ae-3">
-              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="https://brooklynbeautybar.github.io/assets/img/background/img-71.jpg"/></div><strong>The Unforgettable Experience</strong>Brooklyn Beauty Bar</div>
+              <div class="sc" data-hover-text="Watch the video"><div class="sc-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-71.jpg" class="lazy"/></div><strong>The Unforgettable Experience</strong>Brooklyn Beauty Bar</div>
             </li>
 
           </ul>
@@ -1113,8 +1074,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               <div class="sc margin-top-3 ae-5">
                 <div class="sc-img">
-                  <a href="http://thegreatdayout.com.au/mgdo/zoe-benji-marshall" target="_blank" rel="nofollow">
-                    <img class="block" src="https://brooklynbeautybar.github.io/assets/img/background/img-01.jpg">
+                  <a href="http://thegreatdayout.com.au/mgdo/zoe-benji-marshall" target="_blank">
+                    <img class="lazy block" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-01.jpg">
                   </a>
                 </div>
               </div>
@@ -1123,7 +1084,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
               <div class="fix-12-12">
                 <div class="fix-8-12 toLeft">
-                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank" rel="nofollow"><span class="h1 big ae-1">Girl's Night Out</span></a>
+                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank"><span class="h1 big ae-1">Girl's Night Out</span></a>
                   <div class="h4 light ae-2">The Great Day Out</div>
                   <div class="ae-3 margin-top-2"><p class="small">When the planets align and you’re able to break free with your ‘besties’, it’s worth organising something memorable</p></div>
                   <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup2">Watch Now</a>
@@ -1131,8 +1092,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </div>
               <div class="sc margin-top-3 ae-5">
                 <div class="sc-img">
-                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank" rel="nofollow">
-                    <img class="block" src="https://brooklynbeautybar.github.io/assets/img/background/img-91.jpg">
+                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank">
+                    <img class="lazy block" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-91.jpg">
                   </a>
                 </div>
               </div>
@@ -1141,7 +1102,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
               <div class="fix-12-12">
                 <div class="fix-8-12 toLeft">
-                  <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank" rel="nofollow"><span class="h1 big ae-1">Booki Brow Co</span></a>
+                  <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank"><span class="h1 big ae-1">Booki Brow Co</span></a>
                   <div class="h4 light ae-2">Brooklyn Bazaar</div>
                   <div class="ae-3 margin-top-2"><p class="small">Three simple steps to perfect brows</p></div>
                   <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup3">Watch Now</a>
@@ -1150,7 +1111,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="sc margin-top-3 ae-5">
                 <div class="sc-img">
                   <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank" rel="nofollow">
-                    <img class="block" src="https://brooklynbeautybar.github.io/assets/img/background/img-56.jpg">
+                    <img class="lazy block" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-56.jpg">
                   </a>
                 </div>
               </div>
@@ -1159,7 +1120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
               <div class="fix-12-12">
                 <div class="fix-8-12 toLeft">
-                  <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank" rel="nofollow"><span class="h1 big ae-1">Brisbane's Best Beauty Salon</span></a>
+                  <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank"><span class="h1 big ae-1">Brisbane's Best Beauty Salon</span></a>
                   <div class="h4 light ae-2">Brooklyn Beauty Bar</div>
                   <div class="ae-3 margin-top-2"><p class="small">Brooklyn Beauty Bar is a licensed gentlewomen's club</p></div>
                   <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup4">Watch Now</a>
@@ -1168,7 +1129,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="sc margin-top-3 ae-5">
                 <div class="sc-img">
                   <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank" rel="nofollow">
-                    <img class="block" src="https://brooklynbeautybar.github.io/assets/img/background/img-68.jpg">
+                    <img class="lazy block" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-68.jpg">
                   </a>
                 </div>
               </div>
@@ -1177,7 +1138,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
               <div class="fix-12-12">
                 <div class="fix-8-12 toLeft">
-                  <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank" rel="nofollow"><span class="h1 big ae-1">Beauty Bar & Salon</span></a>
+                  <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank"><span class="h1 big ae-1">Beauty Bar & Salon</span></a>
                   <div class="h4 light ae-2">Big Review TV</div>
                   <div class="ae-3 margin-top-2"><p class="small">Brooklyn Beauty Bar on Big Review TV</p></div>
                   <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup5">Watch Now</a>
@@ -1186,7 +1147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="sc margin-top-3 ae-5">
                 <div class="sc-img">
                   <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank" rel="nofollow">
-                    <img class="block" src="https://brooklynbeautybar.github.io/assets/img/background/img-69.jpg">
+                    <img class="lazy block" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-69.jpg">
                   </a>
                 </div>
               </div>
@@ -1195,7 +1156,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <li>
               <div class="fix-12-12">
                 <div class="fix-8-12 toLeft">
-                  <a href="https://vimeo.com/brooklynbeautybar" target="_blank" rel="nofollow"><span class="h1 big ae-1">The Unforgettable Experience</span></a>
+                  <a href="https://vimeo.com/brooklynbeautybar" target="_blank"><span class="h1 big ae-1">The Unforgettable Experience</span></a>
                   <div class="h4 light ae-2">Brooklyn Beauty Bar</div>
                   <div class="ae-3 margin-top-2"><p class="small">Brisbane's Unforgettable Beauty Experience</p></div>
                   <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup6">Watch Now</a>
@@ -1204,7 +1165,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               <div class="sc margin-top-3 ae-5">
                 <div class="sc-img">
                   <a href="https://vimeo.com/brooklynbeautybar" target="_blank" rel="nofollow">
-                    <img class="block" src="https://brooklynbeautybar.github.io/assets/img/background/img-71.jpg">
+                    <img class="lazy block" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="/assets/img/background/img-71.jpg">
                   </a>
                 </div>
               </div>
@@ -1366,109 +1327,109 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <ul class="flex grid-68 tintLogos equal equalMobile">
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-3">
-                <div class="cell"><a href="#"><img width="67" src="assets/img/brand-68-bbc.png" alt="BBC"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="67" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-bbc.png" alt="BBC"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-4">
-                <div class="cell"><a href="#"><img width="86" src="assets/img/brand-68-google.png" alt="Google"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="86" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-google.png" alt="Google"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-5">
-                <div class="cell"><a href="#"><img width="32" src="assets/img/brand-68-apple.png" alt="Apple"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="32" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-apple.png" alt="Apple"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-6">
-                <div class="cell"><a href="#"><img width="93" src="assets/img/brand-68-canon.png" alt="Canon"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="93" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-canon.png" alt="Canon"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-7">
-                <div class="cell"><a href="#"><img width="62" src="assets/img/brand-68-nike.png" alt="Nike"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="62" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-nike.png" alt="Nike"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-8">
-                <div class="cell"><a href="#"><img width="115" src="assets/img/brand-68-greenpeace.png" alt="Green Peace"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="115" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-greenpeace.png" alt="Green Peace"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-3">
-                <div class="cell"><a href="#"><img width="94" src="assets/img/brand-68-facebook.png" alt="Facebook"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="94" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-facebook.png" alt="Facebook"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-4">
-                <div class="cell"><a href="#"><img width="64" src="assets/img/brand-68-audi.png" alt="Audi"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="64" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-audi.png" alt="Audi"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-5">
-                <div class="cell"><a href="#"><img width="39" src="assets/img/brand-68-warner-bros.png" alt="Warner Bros"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="39" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-warner-bros.png" alt="Warner Bros"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-6">
-                <div class="cell"><a href="#"><img width="116" src="assets/img/brand-68-microsoft.png" alt="Microsoft"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="116" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-microsoft.png" alt="Microsoft"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-7">
-                <div class="cell"><a href="#"><img width="87" src="assets/img/brand-68-coca-cola.png" alt="Coca Cola"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="87" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-coca-cola.png" alt="Coca Cola"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-8">
-                <div class="cell"><a href="#"><img width="100" src="assets/img/brand-68-reebok.png" alt="Reebok"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="100" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-reebok.png" alt="Reebok"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-3">
-                <div class="cell"><a href="#"><img width="50" src="assets/img/brand-68-adidas.png" alt="Adidas"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="50" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-adidas.png" alt="Adidas"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-4">
-                <div class="cell"><a href="#"><img width="87" src="assets/img/brand-68-vimeo.png" alt="Vimeo"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="87" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-vimeo.png" alt="Vimeo"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-5">
-                <div class="cell"><a href="#"><img width="56" src="assets/img/brand-68-nbc.png" alt="NBC"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="56" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-nbc.png" alt="NBC"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-6">
-                <div class="cell"><a href="#"><img width="95" src="assets/img/brand-68-sony.png" alt="Sony"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="95" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-sony.png" alt="Sony"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-7">
-                <div class="cell"><a href="#"><img width="49" src="assets/img/brand-68-playstation.png" alt="PlayStation"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="49" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-playstation.png" alt="PlayStation"/></a>
                 </div>
               </div>
             </li>
             <li class="col-2-12 col-tablet-1-4 col-phablet-1-3 col-phone-1-2">
               <div class="table wide equalElement ae-8">
-                <div class="cell"><a href="#"><img width="94" src="assets/img/brand-68-national-geographic.png" alt="National Geographic"/></a>
+                <div class="cell"><a href="#"><img class="lazy" width="94" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="assets/img/brand-68-national-geographic.png" alt="National Geographic"/></a>
                 </div>
               </div>
             </li>
