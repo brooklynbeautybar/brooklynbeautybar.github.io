@@ -277,6 +277,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 </svg>
     
+<script src="https://rawcdn.githack.com/eisbehr-/jquery.lazy/d1c9c3257304d5542a67e3cad8a20c7638753ba7/jquery.lazy.min.js"></script>
+<script>
+  $(function() {
+    $('.lazy').Lazy({
+      effect: 'fadeIn',
+      effectTime: 500,
+      appendScroll: (window.isScroll) ? window : $('.content')
+    });
+  });
+</script>    
+    
 <!--Hair & Makeup -->
 <section data-name="hair" data-title="Hair & Makeup" class="slide fade-6 scenic">
   <div class="content">
