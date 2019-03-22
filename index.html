@@ -13,12 +13,13 @@
 
 <!-- Custom Styles -->
 <!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />    
 
 <!-- jQuery 3.3.1 -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<!-- Compressed Scripts -->
-	<script src="js/slides.min.js?42331" type="text/javascript"></script>
+	<script defer src="js/slides.min.js?42331" type="text/javascript"></script>
 
 <!-- Custom Scripts -->
 <!-- <script src="js/custom.js" type="text/javascript"></script> -->
@@ -66,14 +67,39 @@
         <meta name="theme-color" content="#000000">
 
     <!-- Custom Scripts -->
-		<script src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
+		<script defer src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
+        <script defer src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+        <script src="https://stackpile.io/stack_161993.js" async="async"></script>
+<script defer>
+  $(function(){
+    mapboxgl.accessToken = 'pk.eyJ1IjoiaW5zaXRlZCIsImEiOiJjanQzMThmeTIxMnp2NDNwZGZkN2tycmR4In0.-ndsT99qo6HqIlExILyhCw';
+    var map = new mapboxgl.Map({
+      container: 'mapboxBackground',
+      style: 'mapbox://styles/insited/cjt6ug1sk242k1fp91mbhotic',
+      zoom: 16,
+      center: [153.01326, -27.465836]
+    });
 
-<script src="//flyspy.co/tracking/js/iframeResizer.contentWindow.min.js"></script>
-<script type="text/javascript">if (typeof hmtracker == 'undefined') { window.hmtParentUrl = "//flyspy.co/tracking/"; var hmt_script = document.createElement('script'),hmt_purl = encodeURIComponent(location.href).replace('.', '~');hmt_script.type = "text/javascript";hmt_script.src = "//flyspy.co/tracking/?projectname=Insited&uid=4d96382aa46913e4e93299ab067ac9f1eb4b8269&purl="+hmt_purl;document.getElementsByTagName('head')[0].appendChild(hmt_script);} var hmtParallaxScript = document.createElement('script'); hmtParallaxScript.src = "//flyspy.co/tracking/js/parallax-script.js"; document.head.appendChild(hmtParallaxScript); </script>
+    $('.popupTrigger[data-popup-id="barracks"]').on('click', function(){
+      map.resize();
+    });
+  });
+</script>
+<script defer>
+  $(function(){
+    mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyZ2V5c2htaWR0IiwiYSI6ImNqbzN5N3BhbDEyYXMzd3FjNnJlOXJnemkifQ.s0dbtY5p54XeW9_10eUlvw';
+    var map = new mapboxgl.Map({
+      container: 'mapboxBackground2',
+      style: 'mapbox://styles/insited/cjt6ug1sk242k1fp91mbhotic',
+      zoom: 16,
+      center: [153.03839, -27.456255]
+    });
 
-
-
-<script src="https://stackpile.io/stack_161993.js" async="async"></script>
+    $('.popupTrigger[data-popup-id="jamesst"]').on('click', function(){
+      map.resize();
+    });
+  });
+</script>    
     
 </head>
 <body class="slides plain smooth vertical smoothScroll animated">
@@ -236,17 +262,6 @@
     transform-origin: 0%;
   }
 </style>
-    
-<script src="https://rawcdn.githack.com/eisbehr-/jquery.lazy/d1c9c3257304d5542a67e3cad8a20c7638753ba7/jquery.lazy.min.js"></script>
-<script>
-  $(function() {
-    $('.lazy').Lazy({
-      effect: 'fadeIn',
-      effectTime: 500,
-      appendScroll: (window.isScroll) ? window : $('.content')
-    });
-  });
-</script>
     
 <!-- Brooklyn Online -->
 <nav class="panel top firstSlideOnly">
@@ -708,22 +723,22 @@
         <div class="fix-12-12 margin-top-3">
           <ul class="flex fixedSpaces later left">
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-                <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="glamourprices"><img class="lazy wide" src="/assets/img/eyesglamour.jpg" alt="Brows & Lashes Prices"/></a>
+                <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="glamourprices"><img class="wide" src="/assets/img/eyesglamour.jpg" alt="Brows & Lashes Prices"/></a>
               <h3 class="ae-4">Brows & Lashes</h3>
               <div class="ae-5"><p class="tiny opacity-6">Brisbane's Best Brows & Lashes</p></div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="facebodyprices"><img class="lazy wide" src="/assets/img/facialsskin.jpg" alt="Face & Body Prices"/></a>
+              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="facebodyprices"><img class="wide" src="/assets/img/facialsskin.jpg" alt="Face & Body Prices"/></a>
               <h3 class="ae-5">Face & Body</h3>
               <div class="ae-6"><p class="tiny opacity-6">A Rejuvenating Experience</p></div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="hairprices"><img class="lazy wide" src="/assets/img/bodymakeup.jpg" alt="Hair & Makeup Prices"/></a>
+              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="hairprices"><img class="wide" src="/assets/img/bodymakeup.jpg" alt="Hair & Makeup Prices"/></a>
               <h3 class="ae-6">Hair & Makeup</h3>
               <div class="ae-7"><p class="tiny opacity-6">Salon Upstyles & Cosmetics</p></div>
             </li>
             <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="nailsprices"><img class="lazy wide" src="/assets/img/nails.jpg" alt="Nails Prices"/></a>
+              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="nailsprices"><img class="wide" src="/assets/img/nails.jpg" alt="Nails Prices"/></a>
               <h3 class="ae-7">Nails</h3>
               <div class="ae-8"><p class="tiny opacity-6">Acrylic & Gel Polish</p></div>
             </li>
@@ -1301,135 +1316,6 @@
   </div>
 </section>
 
-<!-- Showcase popup gallery -->
-<div class="popup animated showcase" data-popup-id="showcase">
-  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-  <div class="content">
-    <div class="container">
-      <div class="wrap left top padding-top-4 padding-bottom-4 padding-left-3 padding-right-3">
-        <div class="fix-custom-popup popupContent">
-          <div class="fix-12-12">
-            <div class="button noSelect round small white opaque cropLeft" data-slider-id="showcase" data-slider-action="prev"><i class="material-icons">arrow_back</i>Back</div>
-            <div class="button noSelect round small white opaque margin-left-1" data-slider-id="showcase" data-slider-action="next">Next<i class="material-icons right">arrow_forward</i></div>
-          </div>
-          <ul class="slider margin-top-4" data-slider-id="showcase">
-
-            <!-- inner element -->
-            <li>
-              <div class="fix-12-12">
-                <div class="fix-8-12 toLeft">
-                  <a href="http://thegreatdayout.com.au/mgdo/zoe-benji-marshall" target="_blank"><span class="h1 big ae-1">Zoe & Benji Marshall</span></a>
-                  <div class="h4 light ae-2">The Great Day Out</div>
-                  <div class="ae-3 margin-top-2"><p class="small">NRL star Benji Marshall and wife Zoe share their idea of a Great Day Out together</p></div>
-                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup1">Watch Now</a>
-                </div>
-              </div>
-              <div class="sc margin-top-3 ae-5">
-                <div class="sc-img">
-                  <a href="http://thegreatdayout.com.au/mgdo/zoe-benji-marshall" target="_blank">
-                    <img class="block" src="/assets/img/background/img-01.jpg">
-                  </a>
-                </div>
-              </div>
-            </li>
-            <!-- inner element -->
-            <li>
-              <div class="fix-12-12">
-                <div class="fix-8-12 toLeft">
-                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank"><span class="h1 big ae-1">Girl's Night Out</span></a>
-                  <div class="h4 light ae-2">The Great Day Out</div>
-                  <div class="ae-3 margin-top-2"><p class="small">When the planets align and you’re able to break free with your ‘besties’, it’s worth organising something memorable</p></div>
-                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup2">Watch Now</a>
-                </div>
-              </div>
-              <div class="sc margin-top-3 ae-5">
-                <div class="sc-img">
-                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank">
-                    <img class="block" src="/assets/img/background/img-91.jpg">
-                  </a>
-                </div>
-              </div>
-            </li>
-            <!-- inner element -->
-            <li>
-              <div class="fix-12-12">
-                <div class="fix-8-12 toLeft">
-                  <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank"><span class="h1 big ae-1">Booki Brow Co</span></a>
-                  <div class="h4 light ae-2">Brooklyn Bazaar</div>
-                  <div class="ae-3 margin-top-2"><p class="small">Three simple steps to perfect brows</p></div>
-                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup3">Watch Now</a>
-                </div>
-              </div>
-              <div class="sc margin-top-3 ae-5">
-                <div class="sc-img">
-                  <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank">
-                    <img class="block" src="/assets/img/background/img-56.jpg">
-                  </a>
-                </div>
-              </div>
-            </li>
-            <!-- inner element -->
-            <li>
-              <div class="fix-12-12">
-                <div class="fix-8-12 toLeft">
-                  <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank"><span class="h1 big ae-1">Brisbane's Best Beauty Salon</span></a>
-                  <div class="h4 light ae-2">Brooklyn Beauty Bar</div>
-                  <div class="ae-3 margin-top-2"><p class="small">Brooklyn Beauty Bar is a licensed gentlewomen's club</p></div>
-                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup4">Watch Now</a>
-                </div>
-              </div>
-              <div class="sc margin-top-3 ae-5">
-                <div class="sc-img">
-                  <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank">
-                    <img class="block" src="/assets/img/background/img-68.jpg">
-                  </a>
-                </div>
-              </div>
-            </li>
-            <!-- inner element -->
-            <li>
-              <div class="fix-12-12">
-                <div class="fix-8-12 toLeft">
-                  <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank"><span class="h1 big ae-1">Beauty Bar & Salon</span></a>
-                  <div class="h4 light ae-2">Big Review TV</div>
-                  <div class="ae-3 margin-top-2"><p class="small">Brooklyn Beauty Bar on Big Review TV</p></div>
-                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup5">Watch Now</a>
-                </div>
-              </div>
-              <div class="sc margin-top-3 ae-5">
-                <div class="sc-img">
-                  <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank" rel="nofollow">
-                    <img class="block" src="/assets/img/background/img-69.jpg">
-                  </a>
-                </div>
-              </div>
-            </li>
-            <!-- inner element -->
-            <li>
-              <div class="fix-12-12">
-                <div class="fix-8-12 toLeft">
-                  <a href="https://vimeo.com/brooklynbeautybar" target="_blank"><span class="h1 big ae-1">The Unforgettable Experience</span></a>
-                  <div class="h4 light ae-2">Brooklyn Beauty Bar</div>
-                  <div class="ae-3 margin-top-2"><p class="small">Brisbane's Unforgettable Beauty Experience</p></div>
-                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup6">Watch Now</a>
-                </div>
-              </div>
-              <div class="sc margin-top-3 ae-5">
-                <div class="sc-img">
-                  <a href="https://vimeo.com/brooklynbeautybar" target="_blank" rel="nofollow">
-                    <img class="block" src="/assets/img/background/img-71.jpg">
-                  </a>
-                </div>
-              </div>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>      
-
 <!-- Salon Brands -->
 <section data-name="brands" data-title="Salon Brands" class="slide fade-6 scenic">
   <div class="content">
@@ -1640,24 +1526,6 @@
 </section>
     
 <!-- Map of The Barracks -->
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
-
-<script>
-  $(function(){
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaW5zaXRlZCIsImEiOiJjanQzMThmeTIxMnp2NDNwZGZkN2tycmR4In0.-ndsT99qo6HqIlExILyhCw';
-    var map = new mapboxgl.Map({
-      container: 'mapboxBackground',
-      style: 'mapbox://styles/insited/cjt6ug1sk242k1fp91mbhotic',
-      zoom: 16,
-      center: [153.01326, -27.465836]
-    });
-
-    $('.popupTrigger[data-popup-id="barracks"]').on('click', function(){
-      map.resize();
-    });
-  });
-</script>
 <div class="popup" data-popup-id="barracks">
   <div class="close opaque"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
@@ -1668,21 +1536,6 @@
 </div> 
     
 <!-- Map of James St -->
-<script>
-  $(function(){
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyZ2V5c2htaWR0IiwiYSI6ImNqbzN5N3BhbDEyYXMzd3FjNnJlOXJnemkifQ.s0dbtY5p54XeW9_10eUlvw';
-    var map = new mapboxgl.Map({
-      container: 'mapboxBackground2',
-      style: 'mapbox://styles/insited/cjt6ug1sk242k1fp91mbhotic',
-      zoom: 16,
-      center: [153.03839, -27.456255]
-    });
-
-    $('.popupTrigger[data-popup-id="jamesst"]').on('click', function(){
-      map.resize();
-    });
-  });
-</script>
 <div class="popup" data-popup-id="jamesst">
   <div class="close opaque"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
@@ -1700,7 +1553,7 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://www.youtube.com/embed/Y2woKp_iZ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://www.youtube.com/embed/Y2woKp_iZ-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -1715,12 +1568,44 @@
     <div class="container">
       <div class="wrap">
         <div class="popupContent embedVideo">
-          <iframe src="/parties.html" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
+          <iframe defer src="/parties.html" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
         </div>
       </div>
     </div>
   </div>
 </div>     
+
+<!-- Showcase popup gallery -->
+<div class="popup animated showcase" data-popup-id="showcase">
+  <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
+  <div class="content">
+    <div class="container">
+      <div class="wrap left top padding-top-4 padding-bottom-4 padding-left-3 padding-right-3">
+        <div class="fix-custom-popup popupContent">
+          <div class="fix-12-12">
+            <div class="button noSelect round small white opaque cropLeft" data-slider-id="showcase" data-slider-action="prev"><i class="material-icons">arrow_back</i>Back</div>
+            <div class="button noSelect round small white opaque margin-left-1" data-slider-id="showcase" data-slider-action="next">Next<i class="material-icons right">arrow_forward</i></div>
+          </div>
+          <ul class="slider margin-top-4" data-slider-id="showcase">
+
+            <!-- inner element -->
+            <li>
+              <div class="fix-12-12">
+                <div class="fix-8-12 toLeft">
+                  <a href="http://thegreatdayout.com.au/mgdo/zoe-benji-marshall" target="_blank"><span class="h1 big ae-1">Zoe & Benji Marshall</span></a>
+                  <div class="h4 light ae-2">The Great Day Out</div>
+                  <div class="ae-3 margin-top-2"><p class="small">NRL star Benji Marshall and wife Zoe share their idea of a Great Day Out together</p></div>
+                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup1">Watch Now</a>
+                </div>
+              </div>
+              <div class="sc margin-top-3 ae-5">
+                <div class="sc-img">
+                  <a href="http://thegreatdayout.com.au/mgdo/zoe-benji-marshall" target="_blank">
+                    <img class="block" src="/assets/img/background/img-01.jpg">
+                  </a>
+                </div>
+              </div>
+            </li>
     
 <!-- Popup Video 1 -->
 <div class="popup autoplay" data-popup-id="popup1">
@@ -1730,14 +1615,33 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://www.youtube.com/embed/AXPv_Yswja0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://www.youtube.com/embed/AXPv_Yswja0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-    
+              
+            <!-- inner element -->
+            <li>
+              <div class="fix-12-12">
+                <div class="fix-8-12 toLeft">
+                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank"><span class="h1 big ae-1">Girl's Night Out</span></a>
+                  <div class="h4 light ae-2">The Great Day Out</div>
+                  <div class="ae-3 margin-top-2"><p class="small">When the planets align and you’re able to break free with your ‘besties’, it’s worth organising something memorable</p></div>
+                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup2">Watch Now</a>
+                </div>
+              </div>
+              <div class="sc margin-top-3 ae-5">
+                <div class="sc-img">
+                  <a href="http://thegreatdayout.com.au/fun/girls-night-out" target="_blank">
+                    <img class="block" src="/assets/img/background/img-91.jpg">
+                  </a>
+                </div>
+              </div>
+            </li>
+              
 <!-- Popup Video 2 -->
 <div class="popup autoplay" data-popup-id="popup2">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -1746,14 +1650,33 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://www.youtube.com/embed/VO82m0nCZYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://www.youtube.com/embed/VO82m0nCZYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-    
+</div>              
+              
+            <!-- inner element -->
+            <li>
+              <div class="fix-12-12">
+                <div class="fix-8-12 toLeft">
+                  <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank"><span class="h1 big ae-1">Booki Brow Co</span></a>
+                  <div class="h4 light ae-2">Brooklyn Bazaar</div>
+                  <div class="ae-3 margin-top-2"><p class="small">Three simple steps to perfect brows</p></div>
+                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup3">Watch Now</a>
+                </div>
+              </div>
+              <div class="sc margin-top-3 ae-5">
+                <div class="sc-img">
+                  <a href="https://www.brooklynbazaar.com.au/collections/booki-brow-co" target="_blank">
+                    <img class="block" src="/assets/img/background/img-56.jpg">
+                  </a>
+                </div>
+              </div>
+            </li>
+              
 <!-- Popup Video 3 -->
 <div class="popup autoplay" data-popup-id="popup3">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -1762,14 +1685,33 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://www.youtube.com/embed/NK9HB2NBieg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://www.youtube.com/embed/NK9HB2NBieg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-    
+</div>              
+              
+            <!-- inner element -->
+            <li>
+              <div class="fix-12-12">
+                <div class="fix-8-12 toLeft">
+                  <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank"><span class="h1 big ae-1">Brisbane's Best Beauty Salon</span></a>
+                  <div class="h4 light ae-2">Brooklyn Beauty Bar</div>
+                  <div class="ae-3 margin-top-2"><p class="small">Brooklyn Beauty Bar is a licensed gentlewomen's club</p></div>
+                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup4">Watch Now</a>
+                </div>
+              </div>
+              <div class="sc margin-top-3 ae-5">
+                <div class="sc-img">
+                  <a href="https://www.youtube.com/channel/UC6t7_yKc8VYEGH1ChaveYOA" target="_blank">
+                    <img class="block" src="/assets/img/background/img-68.jpg">
+                  </a>
+                </div>
+              </div>
+            </li>
+              
 <!-- Popup Video 4 -->
 <div class="popup autoplay" data-popup-id="popup4">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
@@ -1778,13 +1720,33 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://www.youtube.com/embed/WXw9OD2M91A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://www.youtube.com/embed/WXw9OD2M91A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</div>              
+              
+            <!-- inner element -->
+            <li>
+              <div class="fix-12-12">
+                <div class="fix-8-12 toLeft">
+                  <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank"><span class="h1 big ae-1">Beauty Bar & Salon</span></a>
+                  <div class="h4 light ae-2">Big Review TV</div>
+                  <div class="ae-3 margin-top-2"><p class="small">Brooklyn Beauty Bar on Big Review TV</p></div>
+                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup5">Watch Now</a>
+                </div>
+              </div>
+              <div class="sc margin-top-3 ae-5">
+                <div class="sc-img">
+                  <a href="https://www.youtube.com/channel/UCEIN_jNuUX1YYsIurAAMSSg" target="_blank" rel="nofollow">
+                    <img class="block" src="/assets/img/background/img-69.jpg">
+                  </a>
+                </div>
+              </div>
+            </li>
+
     
 <!-- Popup Video 5 -->
 <div class="popup autoplay" data-popup-id="popup5">
@@ -1794,15 +1756,34 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://www.youtube.com/embed/FRrkWdqWFTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://www.youtube.com/embed/FRrkWdqWFTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>      
-    
-<!-- Popup Video 6 -->
+</div>                
+              
+            <!-- inner element -->
+            <li>
+              <div class="fix-12-12">
+                <div class="fix-8-12 toLeft">
+                  <a href="https://vimeo.com/brooklynbeautybar" target="_blank"><span class="h1 big ae-1">The Unforgettable Experience</span></a>
+                  <div class="h4 light ae-2">Brooklyn Beauty Bar</div>
+                  <div class="ae-3 margin-top-2"><p class="small">Brisbane's Unforgettable Beauty Experience</p></div>
+                  <a class="button white round stroke small ae-4 popupTrigger" data-popup-id="popup6">Watch Now</a>
+                </div>
+              </div>
+              <div class="sc margin-top-3 ae-5">
+                <div class="sc-img">
+                  <a href="https://vimeo.com/brooklynbeautybar" target="_blank" rel="nofollow">
+                    <img class="block" src="/assets/img/background/img-71.jpg">
+                  </a>
+                </div>
+              </div>
+            </li>
+            
+              <!-- Popup Video 6 -->
 <div class="popup autoplay" data-popup-id="popup6">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
@@ -1810,13 +1791,20 @@
       <div class="wrap">
         <div class="fix-10-12">
           <div class="embedVideo popupContent">
-            <iframe src="https://player.vimeo.com/video/322686188" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe defer src="https://player.vimeo.com/video/322686188" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>        
-    
+</div>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>     
+
 </body>
 </html>
