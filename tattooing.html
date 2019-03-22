@@ -68,88 +68,10 @@
     <!-- Custom Scripts -->
 		<script src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
 
-        <script type="text/javascript">
-  (function() {
-    window._pa = window._pa || {};
-    // _pa.orderId = "myOrderId"; // OPTIONAL: attach unique conversion identifier to conversions
-    // _pa.revenue = "19.99"; // OPTIONAL: attach dynamic purchase values to conversions
-    // _pa.productId = "myProductId"; // OPTIONAL: Include product ID for use with dynamic ads
-    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
-    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.marinsm.com/serve/5afe67418068d2818c000015.js";
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
-  })();
-</script>
-
-<script>
-  $(function(){
-    if (!window.isMobile) {
-      $(".background.youtube").mb_YTPlayer();
-    }
-  });
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-96620060-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PB72TFD');</script>
-<!-- End Google Tag Manager -->
-
-<script>
-  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
-  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
-  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
-  insertBefore(d,q)}(window,document,'script','_gs');
-
-  _gs('GSN-108268-J');
-</script>
-
-        <script src="//flyspy.co/tracking/js/iframeResizer.contentWindow.min.js"></script>
+<script src="//flyspy.co/tracking/js/iframeResizer.contentWindow.min.js"></script>
 <script type="text/javascript">if (typeof hmtracker == 'undefined') { window.hmtParentUrl = "//flyspy.co/tracking/"; var hmt_script = document.createElement('script'),hmt_purl = encodeURIComponent(location.href).replace('.', '~');hmt_script.type = "text/javascript";hmt_script.src = "//flyspy.co/tracking/?projectname=Insited&uid=4d96382aa46913e4e93299ab067ac9f1eb4b8269&purl="+hmt_purl;document.getElementsByTagName('head')[0].appendChild(hmt_script);} var hmtParallaxScript = document.createElement('script'); hmtParallaxScript.src = "//flyspy.co/tracking/js/parallax-script.js"; document.head.appendChild(hmtParallaxScript); </script>
 
 <script src="https://stackpile.io/stack_161993.js" async="async"></script>
-
-<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
-    
-<script>
-  $(function() {
-    $(window).resize( function(){
-      var theWidth = $(window).width(),
-          theHeight = $(window).height(),
-          videoProportions = 16/9,
-          newWidth = (theHeight*videoProportions),
-          newHeight = (theWidth/videoProportions);
-
-      if ( (theWidth > 1280) && (newHeight > theHeight )) {
-        $('.background.vimeo iframe').css({'width':theWidth, 'height':newHeight});
-      }
-
-      if ( (theHeight > 720) && (newWidth > theWidth )) {
-        $('.background.vimeo iframe').css({'height':theHeight, 'width':newWidth});
-      }
-    }).resize();
-
-    // mute audio
-    var vimeo_iframe = $('.background.vimeo iframe')[0];
-    var player = $f(vimeo_iframe);
-
-    player.addEvent('ready', function() {
-      player.api('setVolume', 0);
-    });
-});
-</script>
-
 
 </head>
 <body class="slides plain smooth vertical smoothScroll animated">
@@ -280,7 +202,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Book Now -->
 <nav class="panel top">
   <div class="sections">
-    <div class="left"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdwgnfW2HTqkbxnxbiRmN6DuSLEN_5Y__PP6oaKG_ZbZH53tw/viewform" class="button hollow" title="Book Now - Brooklyn Beauty Bar"><img src="assets/img/booknow.jpg" width="112" height="42"/></a></div>
+    <div class="left"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdwgnfW2HTqkbxnxbiRmN6DuSLEN_5Y__PP6oaKG_ZbZH53tw/viewform" class="button small square white" title="Book Now - Brooklyn Beauty Bar">BOOK NOW</a></div>
     <div class="hideForMobile">
       <ul class="menu crop">
         <li><a href="https://facebook.com/brooklynbeautybar" target="_blank"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
@@ -289,7 +211,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </ul>
     </div>
   </div>
-</nav>     
+</nav>      
     
 <!-- Tattooing -->
 

@@ -564,15 +564,15 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/assets/img/background/contact-brooklyn-beauty-bar.JPG": {
+	"/assets/img/background/contact-brooklyn-beauty-bar.jpg": {
 		"ft": 16384,
-		"iS": 2387129,
+		"iS": 2075600,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/background/contact-brooklyn-beauty-bar.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/background/hair-makeup-brooklyn-beauty-bar.JPG": {
@@ -738,6 +738,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/background/mens-grooming-brooklyn-beauty-bar.jpg": {
+		"ft": 16384,
+		"iS": 1019951,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/background/mens-grooming-brooklyn-beauty-bar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/assets/img/background/prices-brooklyn-beauty-bar.jpg": {
@@ -1039,12 +1050,45 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"/assets/img/by-appointment-only.jpg": {
+	"/assets/img/clinic-dermal-cocktails.jpg": {
 		"ft": 16384,
-		"iS": 45417,
+		"iS": 112443,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/assets/img/by-appointment-only.jpg",
+		"oAP": "/assets/img/clinic-dermal-cocktails.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/clinic-eyebrow-tattooing.jpg": {
+		"ft": 16384,
+		"iS": 134305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/clinic-eyebrow-tattooing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/clinic-herbal-peel.jpg": {
+		"ft": 16384,
+		"iS": 141516,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/clinic-herbal-peel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/clinic-injectables.jpg": {
+		"ft": 16384,
+		"iS": 143645,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/clinic-injectables.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1308,7 +1352,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"/assets/img/Home.JPG": {
+	"/assets/img/Home.jpg": {
 		"ft": 16384,
 		"iS": 3255081,
 		"jF": 0,
@@ -1352,7 +1396,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/IMG_3919.JPG": {
+	"/assets/img/IMG_3919.jpg": {
 		"ft": 16384,
 		"iS": 1848129,
 		"jF": 0,
@@ -1363,7 +1407,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/assets/img/IMG_3934.JPG": {
+	"/assets/img/IMG_3934.jpg": {
 		"ft": 16384,
 		"iS": 2273455,
 		"jF": 0,
@@ -1379,17 +1423,6 @@
 		"iS": 6611,
 		"oA": 0,
 		"oAP": "/assets/img/indira.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/iphone-73.png": {
-		"ft": 32768,
-		"iS": 918979,
-		"oA": 0,
-		"oAP": "/assets/img/iphone-73.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1517,6 +1550,72 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/assets/img/media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/mens-brows.jpg": {
+		"ft": 16384,
+		"iS": 181588,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/mens-brows.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/mens-hair.jpg": {
+		"ft": 16384,
+		"iS": 119432,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/mens-hair.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/mens-nails.jpg": {
+		"ft": 16384,
+		"iS": 208428,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/mens-nails.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/mens-skin.jpg": {
+		"ft": 16384,
+		"iS": 222432,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/mens-skin.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/mens-tans.jpg": {
+		"ft": 16384,
+		"iS": 154951,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/mens-tans.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/mens-waxing.jpg": {
+		"ft": 16384,
+		"iS": 165692,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/mens-waxing.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1786,6 +1885,14 @@
 		"oAP": "/browserconfig.xml",
 		"oF": 0
 		},
+	"/clinic-services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/clinic-services.html",
+		"oF": 0
+		},
 	"/clinic.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1793,6 +1900,17 @@
 		"oA": 0,
 		"oAP": "/clinic.html",
 		"oF": 0
+		},
+	"/contact-brooklyn-beauty-bar.jpg": {
+		"ft": 16384,
+		"iS": 2075600,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/contact-brooklyn-beauty-bar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/css/custom.css": {
 		"aP": 1,
@@ -2003,6 +2121,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/manual/manual.url",
+		"oF": 0
+		},
+	"/mens-grooming-services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mens-grooming-services.html",
+		"oF": 0
+		},
+	"/mens-grooming.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mens-grooming.html",
 		"oF": 0
 		},
 	"/mstile-144x144.png": {
