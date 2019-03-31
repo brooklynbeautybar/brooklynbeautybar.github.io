@@ -12,8 +12,7 @@
 	<link href="css/slides.min.css?42331" rel="stylesheet" type="text/css">
 
 <!-- Custom Styles -->
-<!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />    
+<!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->   
 
 <!-- jQuery 3.3.1 -->
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -68,38 +67,7 @@
 
     <!-- Custom Scripts -->
 		<script defer src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
-        <script defer src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
-        <script src="https://stackpile.io/stack_161993.js" async="async"></script>
-<script defer>
-  $(function(){
-    mapboxgl.accessToken = 'pk.eyJ1IjoiaW5zaXRlZCIsImEiOiJjanQzMThmeTIxMnp2NDNwZGZkN2tycmR4In0.-ndsT99qo6HqIlExILyhCw';
-    var map = new mapboxgl.Map({
-      container: 'mapboxBackground',
-      style: 'mapbox://styles/insited/cjt6ug1sk242k1fp91mbhotic',
-      zoom: 16,
-      center: [153.01326, -27.465836]
-    });
-
-    $('.popupTrigger[data-popup-id="barracks"]').on('click', function(){
-      map.resize();
-    });
-  });
-</script>
-<script defer>
-  $(function(){
-    mapboxgl.accessToken = 'pk.eyJ1Ijoic2VyZ2V5c2htaWR0IiwiYSI6ImNqbzN5N3BhbDEyYXMzd3FjNnJlOXJnemkifQ.s0dbtY5p54XeW9_10eUlvw';
-    var map = new mapboxgl.Map({
-      container: 'mapboxBackground2',
-      style: 'mapbox://styles/insited/cjt6ug1sk242k1fp91mbhotic',
-      zoom: 16,
-      center: [153.03839, -27.456255]
-    });
-
-    $('.popupTrigger[data-popup-id="jamesst"]').on('click', function(){
-      map.resize();
-    });
-  });
-</script>    
+        <script src="https://stackpile.io/stack_161993.js" async="async"></script>  
     
 </head>
 <body class="slides plain smooth vertical smoothScroll animated">
@@ -303,13 +271,6 @@
     </ul>
   </div>
 </nav>
-<!-- Next Slide -->
-<nav class="panel bottom">
-  <div class="sections">
-    <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
-  </div>
-</nav>    
-
 
 <!-- Media -->
 <section data-name="media" data-title="Media" class="slide showcase fade-6 scenic">
