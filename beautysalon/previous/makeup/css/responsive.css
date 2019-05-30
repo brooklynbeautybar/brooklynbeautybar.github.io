@@ -1,0 +1,187 @@
+/* ==================================================================
+MEDIA QUERIES - RESPONSIVE FEATURES
+================================================================== */
+@media (max-width: 992px) {
+	.about-us-content ul.info li{
+		float: left;
+		display: block;
+		width: 300px;
+		margin-bottom: 10px;
+	}
+	.about-us-content ul.info li:nth-child(3){
+		clear: both;
+	}
+	.about-us-content h3{
+		font-size: 16px;
+	}
+	.about-us-content p{
+		margin-bottom: 20px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.member{
+		margin: 20px 0px 0px 0px;
+	}
+	.tweets{
+		margin-top: 20px;
+	}
+	.list-tweets{
+		margin-top: 15px;
+	}
+	.list-tweets .twitter-article li{
+		line-height: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	body{
+		font-size: 14px;
+	}
+	textarea, 
+	input[type="text"], 
+	input[type="text"]:hover, 
+	input[type="text"]:focus, 
+	input[type="text"]:active,
+	input[type="email"], 
+	input[type="email"]:hover, 
+	input[type="email"]:focus, 
+	input[type="email"]:active{
+		font-size: 14px;
+		padding: 8px;
+	}
+	h1 a{
+		padding: 10px 20px;
+	}
+	.intro{
+		line-height: 20px;
+	}
+	.timer{
+		margin-top: 20px;
+	}
+	.timer ul li{
+		min-width: 109px;
+		padding: 20px 9px;
+	}
+	.timer ul li span{
+		font-size: 60px;
+	}
+	.timer ul li p{
+		font-size: 14px;
+	}
+	h1,h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 16px;
+	}
+	.time_circles > div > span {
+		font-size: 60px;
+		line-height: 45px;
+	}
+	.time_circles > div > h4 {
+		font-size: 14px;
+	}
+	.menu{
+		margin: 30px 0px 30px 0px;
+	}
+	.menu a.button {
+		width: 130px;
+		padding: 7px 10px;
+	}
+	.morph-button-fixed,
+	.morph-button-fixed .morph-content {
+		width: 130px;
+	}
+	.footer-social li a { 
+		padding: 8px;
+		font-size: 16px;
+	}
+	.timer2{
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	.timer2 .days, 
+	.timer2 .hours, 
+	.timer2 .minutes, 
+	.timer2 .seconds,
+	.timer2 .separate{
+	    font-size: 45px;
+	}
+}
+
+@media (max-width: 620px) {
+	.time_circles > div > span {
+		font-size: 50px;
+		line-height: 35px;
+	}
+	.time_circles > div > h4 {
+		display: none;
+	}
+}
+	
+@media (max-width: 480px) {
+	.timer ul li:nth-child(3){
+		border-right: 0px;
+	}
+	.timer ul li:nth-child(4){
+		display: none;
+	}
+	.menu{
+		margin-bottom: 0px;
+	}
+	.member-image{
+		max-width: 100% !important;
+		float: left;
+		margin-bottom: 10px;
+	}
+	.member-info h3{
+		clear: both;
+		margin-bottom: 0px;
+	}
+	.member-info p{
+		margin-bottom: 5px;
+	}
+	.list-tweets{
+		height: auto;
+		margin-top: 0px;
+	}
+	.time_circles > div > span {
+		font-size: 40px;
+		line-height: 25px;
+	}
+}
+
+@media (max-width: 400px) {
+	.morph-button.morph-button-modal-3{
+		clear: both;
+		margin-top: -30px; 
+	}
+	.footer-social{
+		margin-top: -30px; 
+	}
+}
+
+@media (max-width: 368px) {
+	.timer ul li{
+		min-width: 90px;
+		padding: 20px 5px;
+	}
+	.timer ul li span{
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 360px) {
+	.morph-button.morph-button-modal-2{
+		margin-top: -30px; 
+	}
+}
+
+@media (max-width: 320px) {
+	.timer ul li:nth-child(3){
+		display: none;
+	}
+	.timer ul li:nth-child(2){
+		border-right: 0px;
+	}
+}
