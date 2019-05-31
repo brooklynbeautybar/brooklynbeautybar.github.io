@@ -277,16 +277,17 @@
 </style>
     
 <!-- Brooklyn Online -->
-<nav class="panel top firstSlideOnly">
+<nav class="panel top">
   <div class="sections">
+    <div class="left"><a href="#home" title="Brooklyn Beauty Bar"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
-      <ul class="menu uppercase">
-        <li><a href="https://www.brooklynbazaar.com.au/" title="Brooklyn Bazaar - Shop Online">SHOP</a></li>
-        <li><a href="https://beautie.com.au/by-appointment-only/" title="By Appointment Only - The Podcast">PODCAST</a></li>
-      </ul>
-    </div>
+        <ul class="menu uppercase">
+        <li><a class="dropdownTrigger" data-dropdown-id="bookingpanel">Bookings</a></li>
+        </ul>    
+    </div>  
+    <div class="right"></div>
   </div>
-</nav>    
+</nav>   
 
 <!-- Sidebar -->
 <nav class="sidebar black animated" data-sidebar-id="1">
@@ -601,6 +602,24 @@
     </div>
   </div>
 </div>
+    
+<!-- Booking Panel -->
+<div class="dropdown top center customDropdown black padding-1" data-dropdown-id="bookingpanel">
+  <ul class="slider autoHeight" data-slider-id="submenu">
+    <li class="selected wide">
+      <ul class="menu">
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/12">Upgrades & Bundles</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/4">Beauty Services</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/6">Cosmetic Clinic</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/9">Hair & Makeup</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/5">Men's Grooming</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/11">Doubles & Couples</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/8">Parties & Groups</a></li><br>
+        <li class="link"><a href="https://virgin.brooklynbeautybar.com.au/">Virgin Australia</a></li>
+      </ul>
+    </li>
+    </ul>
+</div>    
     
 <script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>    
 
