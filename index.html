@@ -59,8 +59,22 @@
 }
  </script>   
     
-<script defer src="js/custom.js" type="text/javascript" name="custom-scripts"></script>
-<script src="https://stackpile.io/stack_161993.js" async="async"></script>    
+<script src="https://stackpile.io/stack_161993.js" async="async"></script>
+    
+<!--- Tooltip player -->
+<script type='text/javascript'>
+window.Tooltip||function(t,e){var o={
+url:"https://cdn.tooltip.io/static/player.js",
+key:"8e118426-5da9-4562-b84d-43293c38d2b7",
+async:true
+};
+window.Tooltip={cs:[],_apiKey:o.key};for(
+var r=["identify","goal","updateUserData","start","stop","refresh","show","hide","on"],
+i={},n=0;n<r.length;n++){var a=r[n];i[a]=function(t){return function(){var e=Array.prototype.slice.call(arguments);
+window.Tooltip.cs.push({method:t,args:e})}}(a)}window.Tooltip.API=i;var n=t.createElement(e),s=t.getElementsByTagName(e)[0];
+n.type="text/javascript",n.async=o.async,s.parentNode.insertBefore(n,s),n.src=o.url}(document,"script");
+</script>
+<!--- Tooltip player -->    
     
 <!-- Fonts and Material Icons -->
 	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,600,800|Playfair Display:400|Material+Icons"/>
@@ -83,7 +97,7 @@
     <!-- Core Meta Data -->
         <meta name="author" content="insited.com.au">
         <meta name="description" content="Brisbane's best beauty salon experience specialising in luxury beauty treatments and group beauty. We have individual specialists in Eyebrow Threading & Brow Tinting | Lash Extensions, Lash lifts & Lash Tints | Facials, Herbal Peels & Skin Needling | Acrylic & Polygel | Manicure & Pedicure | Express Spray Tanning | Mens Waxing & Nails | Blow Dries & Events Makeup | Brazilian Waxing & Bikini Waxing. We can Tailor a group beauty experience for Hens’s Nights, Birthdays & Bridal Showers.">
-	    <meta name="keywords" content="beauty.bar brisbane, brooklyn beauty bar, skin care, Brisbane's Best Beauty Salon, brisbanes best Beauty Salon, eyebrow tattooing, Best beauty salon Brisbane, Beauty Salon Brisbane, best salon Brisbane, Nail salon Brisbane, ipl hair removal, Beauty Party Brisbane, beauty salon, gin bar brisbane, cocktail bar brisbane, beauty salon near me, beauty salons near me, brow bar, Beauty Bar Brisbane, hair and beauty salon, beauty therapist Brisbane, Waxing Brisbane, makeup, Makeup Brisbane, hairdressers brisbane, must do brisbane, hair salon brisbane, eyeshadow, hair salon, eyelash extensions brisbane, eyelash extensions, brisbane beauty blog, beauty salons, best bar brisbane, best brows brisbane, hairdresser, barber brisbane, hairstyle brisbane, nail salon near me, brisbane attractions, what to do in brisbane, things to do in brisbane, whats on brisbane">
+	    <meta name="keywords" content="best beauty salon brisbane, brooklyn beauty bar, skin care, Brisbane's Best Beauty Salon, brisbanes best Beauty Salon, eyebrow tattooing, Best beauty salon Brisbane, Beauty Salon Brisbane, best salon Brisbane, Nail salon Brisbane, ipl hair removal, Beauty Party Brisbane, beauty salon, gin bar brisbane, cocktail bar brisbane, beauty salon near me, beauty salons near me, brow bar brisbane, Beauty Bar Brisbane, hair and beauty salon, beauty therapist Brisbane, Waxing Brisbane, makeup, Makeup Brisbane, hairdressers brisbane, must do brisbane, hair salon brisbane, hair salon, eyelash extensions brisbane, eyelash extensions, brisbane beauty blog, beauty salons, best bar brisbane, best brows brisbane, dr spiller brisbane, hairstyle brisbane, nail salon near me">
         <meta property="og:title" content="Brooklyn Beauty Bar - Brisbane Beauty Salon | Brows, Lashes, Nails" />
         <meta property="og:url" content="https://brooklynbeautybar.com.au" />
         <meta property="og:type" content="website" />
@@ -93,8 +107,6 @@
         <meta property="og:image:alt" content="Brooklyn Beauty Bar - Brisbane Beauty Salon | Brows, Lashes, Nails" />
         <meta property="og:video" content="http://vimeo.com/322686188" />
         <meta property="og:video:secure_url" content="https://vimeo.com/322686188" />
-        <meta property="og:audio" content="http://feeds.soundcloud.com/stream/539563719-byapptonly-ep7-amy-emma-sheppard.mp3" />
-        <meta property="og:audio:secure_url" content="https://feeds.soundcloud.com/stream/539563719-byapptonly-ep7-amy-emma-sheppard.mp3" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Brooklyn Beauty Bar - Brisbane Beauty Salon | Brows, Lashes, Nails" />
     <!-- Twitter Meta Tags -->
@@ -118,7 +130,7 @@
     
 </head>
 <body class="slides plain smooth vertical smoothScroll animated">
-
+    
 <!-- SVG Library -->
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 
@@ -243,7 +255,7 @@
 </svg>
 
 <!-- Navigation -->
-<nav class="side pole right">
+<nav class="side diamond medium stroke left">
   <div class="navigation">
     <ul></ul>
   </div>
@@ -252,7 +264,7 @@
 <!-- Panel Top #library/panel/panel-top-10.html -->
 <nav class="panel top">
   <div class="sections">
-    <div class="left"><a href="#home" title="Brooklyn Beauty Bar"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
+    <div class="left"><a href="https://brooklynbeautybar.com.au/" title="Brooklyn Beauty Bar"><svg style="width:82px;height:24px"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a></div>
     <div class="center">
         <ul class="menu uppercase">
         <li><a class="dropdownTrigger" data-dropdown-id="bookingpanel">Bookings</a></li>
@@ -269,12 +281,12 @@
 </style>
 
 <!-- Sidebar -->
-<nav class="sidebar black animated" data-sidebar-id="1">
+<nav class="sidebar black animated" data-sidebar-id="1" style="width:230px">
   <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
   <div class="content">
-    <a href="#home" class="logo"><svg width="100" height="40"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>  
+    <a href="https://brooklynbeautybar.com.au/" class="logo"><svg width="150" height="39"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg></a>  
     <ul class="mainMenu small margin-top-3">
-      <li><a href="#about" class="ae-1">Beauty Services</a></li>
+      <li><a href="/womens-services.html" class="ae-1">Beauty Services</a></li>
       <li><a class="ae-2 popupTrigger" data-popup-id="mensgrooming">Mens Grooming</a></li>
       <li><a class="ae-3 popupTrigger" data-popup-id="clinic">Cosmetic Clinic</a></li>
       <li><a href="#parties" class="ae-4">Parties & Groups</a></li>
@@ -291,7 +303,7 @@
       <li><a href="http://brooklynbazaar.com.au/" class="ae-10">Shop</a></li>
       <li><a href="https://www.beautygifts.com.au/" class="ae-10">Gifts</a></li>
     </ul>
-    <ul class="social opacity-8 fromLeft">
+    <ul class="social opacity-8 fromLeft small">
       <li><a href="https://facebook.com/brooklynbeautybar" title="Brooklyn Beauty Bar Facebook" target="_blank" class="ae-6"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
       <li><a href="https://instagram.com/brooklynbeautybar" title="Brooklyn Beauty Bar Instagram" target="_blank" class="ae-7"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
       <li><a href="https://www.pinterest.com.au/brooklynbeautyb/" title="Brooklyn Beauty Bar Pinterest" target="_blank" class="ae-8"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pinterest"></use></svg></a></li>
@@ -300,6 +312,7 @@
     </ul>
   </div>
 </nav>
+    
 <!-- Next Slide -->
 <nav class="panel bottom">
   <div class="sections">
@@ -307,966 +320,213 @@
     <div class="center"><span class="nextSlide"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-down"></use></svg></span></div>
     <div class="right uppercase tiny opacity-8"><a class="dialogTrigger" data-dialog-id="customers"><i class='material-icons'>favorite</i></a></div>
   </div>
-</nav>   
+</nav>
 
 <!-- Brooklyn Beauty Bar Home -->
-<section data-name="home" data-title="Brooklyn Beauty Bar" class="slide black">
+<section data-name="home" data-title="Brooklyn Beauty Bar" class="slide black fade-3">
   <div class="content">
     <div class="container">
-      <div class="wrap ae-1 fromCenter">
+      <div class="wrap ae-2 fromCenter">
           <svg class="scale wide"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-          <div class="ae-3 margin-top-2"><h2 class="uppercase small opacity-8"><span class="light">Beauty Salon & Licensed Bar</span></h2></div>
+          <div class="ae-3 margin-top-2"><h2 class="uppercase small"><span class="light">Beauty Salon & Licensed Bar</span></h2></div>
       </div>
       </div>
     </div>
+    <div class="background" style="background-image:url(assets/img/background/brooklyn-beauty-bar-brisbane.jpg)"></div>    
 </section>     
     
-<!-- About -->
-<section data-name="about" data-title="About" class="slide fade-6 scenic" data-slide-id="aboutbrooklynbeautybar">
+<!-- Specialties -->
+<section data-name="specialties" data-title="Specialties" class="slide fade-6 selected active animate">
   <div class="content">
     <div class="container">
-      <div class="wrap">
+      <div class="wrap left">
 
-        <div class="fix-10-12">
-          <svg height="77" class="wide ae-1 fromCenter svgContainer"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-          <div class="ae-2 margin-top-2"><p class="hero opacity-8">Brisbane's Premium Beauty Salon & Licensed Bar.</p></div>
-          <div class="button stroke white uppercase square cropBottom popupTrigger margin-top-2 ae-3 popupTrigger" data-popup-id="upgrades">DAILY UPGRADES</div>
-        </div>
-        <div class="fix-11-12 margin-top-5">
-          <ul class="grid fixedSpaces equal left grid-71">
-            <li class="col-4-12 ae-4">
-              <a class="cell-71 rounded equalElement popupTrigger" data-popup-id="womens">
-                <i class='material-icons'>local_bar</i>
-                <h3>Women's Services</h3>
-                <p class="tiny opacity-6">Luxury Beauty, Nail & Hair treatments.</p>
-              </a>
-            </li>
-            <li class="col-4-12 ae-5">
-              <a class="cell-71 rounded equalElement popupTrigger" data-popup-id="mensgrooming">
-                <i class="material-icons">spa</i>
-                <h3>Men's Grooming</h3>
-                <p class="tiny opacity-6">Male skin, waxing & hair services.</p>
-              </a>
-            </li>  
-            <li class="col-4-12 ae-6">
-              <a class="cell-71 rounded last equalElement popupTrigger" data-popup-id="clinic">
-                <i class="material-icons">&#xe631</i>
-                <h3>Cosmetic Clinic</h3>
-                <p class="tiny opacity-6">Brisbane's premiere cosmetic clinic, advanced skin treatments & cosmetic eyebrow tattooing.</p>
-              </a>
-            </li>  
-          </ul>
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Specialties</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Brooklyn offers exclusive beauty services available at no other salon in Australia.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Learn More</a>
         </div>
 
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/about-brooklyn-beauty-bar.JPG)"></div>
-    
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
 </section>
-    
+
+<!-- Beauty -->
+<section data-name="beauty" data-title="Beauty" class="slide fade-6 selected active animate">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
+
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Beauty</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Comprehensive services at Brisbane’s best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Learn More</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
+</section>
+
 <!-- Parties -->
-<section data-name="parties" data-title="Parties" class="slide fade-6 scenic">
+<section data-name="parties" data-title="Parties" class="slide fade-6 selected active animate">
   <div class="content">
     <div class="container">
-      <div class="wrap">
+      <div class="wrap left">
 
-        <div class="fix-9-12">
-          <div class="fix-3-12">
-            <svg height="77" class="wide ae-1 fromCenter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-          </div>
-          <div class="ae-2 margin-top-2">
-            <h1 class="ae-1">Parties</h1>
-            <p class="small"><span class="opacity-8">*Each beauty party includes a complimentary glass of Bubbles or Gin & Tonic</span></p>
-          </div>
-          <a class="button white stroke square ae-4 popupTrigger" data-popup-id="packages">PACKAGES</a><a href="https://beautybrisbane.com.au/bbbforms/8" class="button white square ae-4">BOOK NOW</a><a class="button white stroke square ae-4 popupTrigger" data-popup-id="experience">THE EXPERIENCE</a>
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Parties</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Australia’s original licensed beauty bar, specialising in Nail and Beauty experiences for Hen’s Parties, Birthday Parties & Work Functions</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Learn More</a>
         </div>
 
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/brooklyn-beauty-bar-parties.jpg)"></div>
-</section> 
-
-<!-- Cocktail & Gin Bar -->
-<section data-name="bar" data-title="Cocktail & Gin Bar" class="slide fade-6 scenic">
-  <div class="content">
-    <div class="container">
-      <div class="wrap">
-
-        <div class="fix-9-12">
-          <div class="fix-3-12">
-            <svg height="77" class="wide ae-1 fromCenter"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use></svg>
-          </div>
-          <div class="ae-2 margin-top-2">
-            <h1 class="ae-1">Cocktail & Gin Bar</h1>
-            <p class="small"><span class="opacity-8">Our Brisbane beauty & nail salons offer a vast selection of champagnes & gins from around the world, including our signature gin based cocktails. Come see one of Brisbane's best bars.</span></p>
-          </div>
-          <a class="button popupTrigger white stroke square ae-3" data-popup-id="drinkprices">OUR MENU</a><a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square ae-4">BOOK NOW</a>
-        </div>
-
-      </div>
-    </div>
-  </div>
-  <div class="background" style="background-image:url(assets/img/brooklyn-beauty-salon.jpg)"></div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
 </section>
-    
-<!-- Popup Text Drinks Prices -->
-<div class="popup" data-popup-id="drinkprices">
-    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-    <div class="content popupContent">
-    <div class="container">
-      <div class="wrap spaces">
-        <div class="fix-10-12 left">
-          <h1>Champagne & Sparkling</h1>
-            <h2>Non-Vintage Champagne</h2>
-          <div class="text-58">
-              <h3 class="text-58">Veuve Clicquot Brut Reims (Reims) - $98.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Bollinger Special Cuvée Ay (Ay) - $105.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">G.H. Mumm Cordon Rouge Brut (Reims) - $85.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Moët & Chandon Brut Impérial (Épernay) - $95.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Piper-Heidsieck Brut (Reims) - $85.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Taittinger Brut Réserve (Reims) - $95.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Perrier-Jouët Grand Brut (Épernay) - $95.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Pol Roger Brut (Épernay) - $125.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Louis Roederer Brut Premier (Reims) - $125.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Laurent-Perrier Brut (Tour-Sur-Marne) - $105.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Dom Pérignon Brut Vintage (Épernay) - $350.00</h3>
-          </div><br>
-            <h2>Non-Vintage Champagne Rosé</h2>
-            <div class="text-58">
-              <h3 class="text-58">Veuve Clicquot Rosé (Reims) - $150.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Moët & Chandon Rosé (Épernay) - $135.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">G.H. Mumm Rosé (Reims) - $110.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Perrier-Jouët Blason Rosé (Épernay) - $140.00</h3>
-          </div><br>
-            <h2>Sparkling</h2>
-            <div class="text-58">
-              <h3 class="text-58">Henkell Trocken Dry-Sec (Germany) - $7.00/$32.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Janz Premium Cuvée (Australia) - $49.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">George Jansen Hallmark Cuvée (Australia) - $69.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Segura Viudas Brut (Spain) - $85.00</h3>
-          </div><br>
-            <h2>Sparkling Rosé</h2>
-            <div class="text-58">
-              <h3 class="text-58">Jacobs Creek Sparkling Rosé (Australia) - $7.00/$30.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Janz Brut Rosé (Australia) - $49.00</h3>
-          </div><br><br>
-            <h1>Cocktail Menu</h1>
-            <h2>Gin Cocktails</h2>
-            <div class="text-58">
-              <h3 class="text-58">Bramble - $15.00</h3>
-              <p>Tanqueray, Crème de Mure, lemon</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Calm Mary - $15.00</h3>
-              <p>Tanqueray, lime, cucumber, rosemary</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Coney Island Sour - $15.00</h3>
-              <p>Tanqueray, Cointreau, Campari, lemon</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Brooklyn Lady - $15.00</h3>
-              <p>Tanqueray, Applejacks, lemon, egg white, grenadine</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">1949 - $17.00</h3>
-              <p>Tanqueray, Sloe Gin, Pomme Verte, bitters</p>
-          </div><br>
-            <h2>Gin & Tonic</h2>
-            <div class="text-58">
-              <h3 class="text-58">Traditional - $9.00</h3>
-              <p>Gin, tonic & garnish</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Tidy - $9.00</h3>
-              <p>Gin, tonic, soda & garnish</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Pink - $12.00</h3>
-              <p>Gin, lemon juice, bitters & tonic</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Colonial - $12.00</h3>
-              <p>Gin, tonic syrup, lemon juice, bitters</p>
-          </div><br><br>
-            <h1>Gin List</h1>
-            <div class="text-58">
-              <p>We proudly offer an array of gins sourced from Australia and around the world. Choose from seven tonics and eight garnishes to create your perfect flavor.</p>
-            </div>
-                <div class="text-58">
-              <h3 class="text-58">Tonic Water</h3>
-              <p>Standard, Indian, Dry, Mediterranean, Light, Tonic Syrup, Spiced Tonic Syrup</p>
-          </div>
-                <div class="text-58">
-              <h3 class="text-58">Garnish</h3>
-              <p>Lemon, Lime, Grapefruit, Orange, Cucumber, Rosemary, Mint, Pepper</p>
-          </div><br>
-            <h2>Classic Gins - $9.00</h2>
-            <div class="text-58">
-              <h3 class="text-58">Tanqueray London Dry</h3>
-              <p>Recommended with; dry tonic Water & lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Bulldog London Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Grapefruit/Lemon twist</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Sloanes Premium Dry</h3>
-              <p>Recommended with; Mediterranean Tonic Water & Orange</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Haymans London Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Haymans Sloe Gin</h3>
-              <p>Recommended with; Henkell Sparkling Wine</p>
-          </div><br>
-            <h2>Premium Gins - $12.00</h2>
-            <div class="text-58">
-              <h3 class="text-58">Hendricks</h3>
-              <p>Recommended with; Indian Tonic Water & Cucumber</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Four Pillars Rare Dry</h3>
-              <p>Recommended with; Mediterranean Tonic Water & Orange</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Tanqueray No. 10</h3>
-              <p>Recommended with; Indian Tonic Water & Grapefruit</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">The Botanists Islay Dry</h3>
-              <p>Recommended with; Dry Tonic Water & Lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Monkey 47 Shwarzwald Dry</h3>
-              <p>Recommended with; Dry Tonic Water & Lemon</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Melbourne Gin Co. Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Grapefruit</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Sipsmith London Dry</h3>
-              <p>Recommended with; Dry Tonic Water & Lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Hippocampus</h3>
-              <p>Recommended with; Indian Tonic Water & Orange</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Archie Rose Signature Dry</h3>
-              <p>Recommended with; Dry Tonic Water & Lemon</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Elephant Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Orange</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Lighthouse Dry</h3>
-              <p>Recommended with; Dry Tonic Water, Pepper and Lemon twist</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Aviation Dry</h3>
-              <p>Recommended with; Mediterranean Tonic Water, Lemon</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Forty Spotted Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Ink Gin Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Rosemary</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Four Pillars Bloody Shiraz</h3>
-              <p>Recommended on ice with Lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">The London No. 1 Dry</h3>
-              <p>Recommended with; Indian Tonic Water & Lime</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Monkey 47 Sloe Gin</h3>
-              <p>Recommended on ice with Lime</p>
-          </div><br>
-            <h2>Specialty Gins - $15.00</h2>
-            <div class="text-58">
-              <h3 class="text-58">Hobart No. 4 Dry</h3>
-              <p>Served with spiced tonic syrup, soda and orange Twist</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Four Pillars Navy Strength</h3>
-              <p>Served with tonic syrup, soda, grapefruit and rosemary</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Four Pillars Aged Gin</h3>
-              <p>Serves with a large ice ball</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Brooklyn Dry</h3>
-              <p>Served with tonic syrup, soda, lime & pepper</p>
-          </div><br><br>
-            <h1>Wine & Beer</h1>
-            <h2>White Wine</h2>
-            <div class="text-58">
-              <h3 class="text-58">Markview Sauvignon Blanc (Australia) - $8.00/$32.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Markview Chardonnay (Australia) - $8.00/$32.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Markview Moscato (Australia) - $8.00/$32.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Essenze Sauvignon Blanc (New Zealand) - $38.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Under & Over Pinot Gris (Australia) - $35.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Tightrope Chardonnay (Australia) - $45.00</h3>
-          </div><br>
-            <h2>Rosé</h2>
-            <div class="text-58">
-              <h3 class="text-58">Singing In The Rain Rosé (Australia) - $38.00</h3>
-          </div><br>
-            <h2>Red</h2>
-            <div class="text-58">
-              <h3 class="text-58">Markview Shiraz (Australia) - $8.00/$32.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Zeppelin Big Bertha Shiraz (Australia) - $38.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Partisan By Jove Tempranillo (Australia) - $38.00</h3>
-          </div><br>
-            <h2>Beer & Cider</h2>
-            <div class="text-58">
-              <h3 class="text-58">Peroni Leggera (Italy) - $8.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Beez Neez Honey Wheat Bear (Australia) - $9.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">White Rabbit White Ale (Australia) - $9.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Stone’s Ginger Beer (Australia) - $9.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Monteith’s Crushed Apple Cider (Australia) - $9.00</h3>
-          </div><br>
-            <h2>Spirits</h2>
-            <div class="text-58">
-              <p>Please ask our friendly staff if we have your favourite spirit in stock.</p>
-          </div><br>
-            <h2>Mixers - $5.00</h2>
-            <div class="text-58">
-              <p>Mineral, Soda, Tonic, Cola, Lemonade, Ginger Beer, Lemon Lime & Bitters.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-</div>    
-
-<!-- Prices -->
-<section data-name="prices" data-title="Prices" class="slide fade-6 scenic">
+<!-- Slide 5 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
   <div class="content">
     <div class="container">
-      <div class="wrap">
+      <div class="wrap left">
 
-        <div class="fix-10-12 toCenter">
-          <h1 class="ae-1">Our Prices</h1>
-          <p class="fix-9-12 ae-2"><span class="opacity-8">Our full list of prices for various services provided in our Brisbane beauty & nail salons can be found here.</span></p>
-        </div>
-        <div class="fix-12-12 margin-top-3">
-          <ul class="flex fixedSpaces later left">
-            <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-                <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="glamourprices"><img class="wide" src="/assets/img/eyesglamour.jpg" alt="Brows & Lashes Prices"/></a>
-              <h3 class="ae-4">Brows & Lashes</h3>
-              <div class="ae-5"><p class="tiny opacity-6">Brisbane's Best Brows Salon & Lashes</p></div>
-            </li>
-            <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="facebodyprices"><img class="wide" src="/assets/img/facialsskin.jpg" alt="Face & Body Prices"/></a>
-              <h3 class="ae-5">Face & Body</h3>
-              <div class="ae-6"><p class="tiny opacity-6">A Rejuvenating Experience</p></div>
-            </li>
-            <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="hairprices"><img class="wide" src="/assets/img/bodymakeup.jpg" alt="Hair & Makeup Prices"/></a>
-              <h3 class="ae-6">Hair & Makeup</h3>
-              <div class="ae-7"><p class="tiny opacity-6">Hair Salon Upstyles & Cosmetics</p></div>
-            </li>
-            <li class="col-3-12 col-tablet-1-2 col-phone-1-1">
-              <a class="button rounded empty margin-bottom-2 ae-4 popupTrigger" data-popup-id="nailsprices"><img class="wide" src="/assets/img/nails.jpg" alt="Nails Prices"/></a>
-              <h3 class="ae-7">Nail Salon</h3>
-              <div class="ae-8"><p class="tiny opacity-6">Acrylic & Gel Polish</p></div>
-            </li>
-          </ul>
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Clinic</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
         </div>
 
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/prices-brooklyn-beauty-bar.jpg)"></div>
-    
-    <!-- Popup Text Eyes Glamour Prices -->
-<div class="popup" data-popup-id="glamourprices">
-    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-    <div class="content popupContent">
-    <div class="container">
-      <div class="wrap spaces">
-        <div class="fix-10-12 left">
-          <h1>Eyes & Glamour</h1>
-            <h2>Brows</h2>
-          <div class="text-58">
-              <h3 class="text-58">Classic Brows - $35.00 (Snr) / $45.00 (Head)</h3>
-              <p>Brow Sculpt</p>
-          </div>
-          <h3 class="text-58">Brookie's Brows - $50.00 (Snr) / $60.00 (Head)</h3>
-          <p>Brow Sculpt & Brow Tint</p>
-          <h3 class="text-58">Executive Brows - $65.00 (Snr) / $75.00 (Head)</h3>
-          <p>Brow Sculpt, Brow Tint & Lash Tint</p>
-            <h3 class="text-58">Brow Tint - $20.00</h3>
-            <h3 class="text-58">Brow Lightening - $30.00</h3>
-            <h3 class="text-58">Brow Extensions - $99.00</h3>
-          <p>Includes Brookie's Brows</p><br>
-            <h2>Threading</h2>
-            <h3 class="text-58">Eyebrow Threading - $45.00</h3>
-            <h3 class="text-58">Eyebrow Threading & Tint - $60.00</h3>
-            <h3 class="text-58">Face Threading (Side of Face, Lip & Chin) - $40.00</h3>
-            <h3 class="text-58">Face Threading (Including Brows) - $65.00</h3>
-            <h3 class="text-58">Chin Threading - $15.00</h3>
-            <h3 class="text-58">Lip Threading - $15.00</h3><br>
-            <h2>Lashes</h2>
-            <h3 class="text-58">Classic Lash Extensions (1/4 Set) - $49.00</h3>
-            <h3 class="text-58">Classic Lash Extensions (Half Set) - $99.00</h3>
-            <h3 class="text-58">Classic Lash Extensions (3/4 Set) - $129.00</h3>
-            <h3 class="text-58">Classic Lash Extensions (Full Set) - $159.00</h3>
-            <h3 class="text-58">Classic Lash Extensions (Refills Half Set) - $85.00</h3>
-            <h3 class="text-58">Classic Lash Extensions (Refills Full Set) - $99.00</h3>
-            <h3 class="text-58">Lash Lift Lash - $85.00</h3>
-            <h3 class="text-58">Tint Lash - $25.00</h3>
-            <h3 class="text-58">Removal - $30.00</h3><br>
-            <h2>Russian Volume Lashes</h2>
-            <h3 class="text-58">Custom Blend (Hybrid) - $200.00</h3>
-            <h3 class="text-58">2D Lashes - $200.00</h3>
-            <h3 class="text-58">3D Lashes - $250.00</h3>
-            <h3 class="text-58">4D Lashes - $300.00</h3>
-            <h3 class="text-58">5D Lashes - $350.00</h3>
-            <h3 class="text-58">Refills (within 3 weeks) - $150.00 to $190.00</h3>
-            <h3 class="text-58">Lash Removal - $30.00</h3><br>
-            <h2>Eyebrow Tattooing</h2>
-            <h3 class="text-58">Consultation - $50.00</h3>
-          <p>Mandatory</p>
-            <h3 class="text-58">Feather Touch - $649.00</h3>
-          <p>2 Treatments</p>
-            <h3 class="text-58">Shading - $649.00</h3>
-          <p>2 Treatments</p>
-            <h3 class="text-58">Block - $649.00</h3>
-          <p>2 Treatments</p>
-            <h3 class="text-58">Shading & Feathering - $849.00</h3>
-          <p>3 Treatments</p>
-            <h3 class="text-58">Block & Feathering - $849.00</h3>
-          <p>3 Treatments</p>
-            <h3 class="text-58">Touch Up - $249.00</h3>
-          <p>Within 18 months</p>
-            <h3 class="text-58">Colour Correction - $299.00</h3>
-          <p>1 Treatment</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    <!-- Popup Text Facials Skin Prices -->
-<div class="popup" data-popup-id="facebodyprices">
-    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-    <div class="content popupContent">
-    <div class="container">
-      <div class="wrap spaces">
-        <div class="fix-10-12 left">
-          <h1>Face & Body Treatments</h1>
-            <h2>Classic Facials</h2>
-          <div class="text-58">
-              <h3 class="text-58">Glow & Go Facial (30 minutes) - $69.00</h3>
-              <p>Includes double cleanse, double exfoliant, treatment mask and moisture protectant.</p>
-          </div>
-          <h3 class="text-58">Deep Cleanse Facial (45 minutes) - $85.00</h3>
-          <p>Includes double cleanse, double exfoliant, steam & extractions, treatment mask and moisture protectant.</p>
-          <h3 class="text-58">The Reset Facial (45 minutes) - $85.00</h3>
-          <p>Includes double cleanse, double exfoliant, treatment mask, collagen eye mask, facial massage and moisture protectant.</p>
-            <h3 class="text-58">The Brooklyn Facial (60 minutes) - $99.00</h3>
-          <p>Includes double cleanse, double exfoliant, steam & extractions, treatment mask, eye mask, facial massage and moisture protectant.</p>
-            <h2>IPL Facials</h2>
-          <div class="text-58">
-              <h3 class="text-58">Collagen Stimulation Facial</h3>
-              <p>Full Face $179.00 - Tightens, smoothes & refines lines like no other. Includes double cleanse, exfoliant & treatment mask.</p>
-              <p>Full Face plus Neck & Decolatage $279.00</p>
-              <p>(NB. Min 5 treatments (1 per month) Recommend. Test patch required at lest 24hrs prior to treatment. Exclusive to our James St salon)</p>
-          </div>
-            <h2>Herbal Peels</h2>
-          <div class="text-58">
-              <h3 class="text-58">Mini Herbal Peel (45 minutes) - $179.00</h3>
-              <p>The all-natural herbal facial, which contains over 250 traces of natural herbs & minerals. This treatment will leave your skin glowing, the natural way. Includes double cleanse, herbal massage & treatment mask. Including face moisturiser and sun protectant. (N.B for best results allow 2 weeks before big event. Test patch required at lest 24hrs prior to treatment)</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Alex Herbal Aktiv Peel - $699.00</h3>
-              <p>Includes pre-photo, peel, 3 x home care products & post-peel facial.</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">Alex Herbal Aktiv Peel (2nd visit) - $399.00</h3>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">3 x Alex Herbal Aktiv Peel Treatments - $1350.00</h3>
-              <p>Each treatment including pre-photo, peel, 3 x home care products and post-peel facial.</p>
-          </div>
-            <div class="text-58">
-              <h3 class="text-58">5 x Alex Herbal Aktiv Peel Treatments - $1950.00</h3>
-              <p>Each treatment including pre-photo, peel, 3 x home care products and post-peel facial.</p>
-                <h2>Tanning</h2>
-            <h3 class="text-58">St. Tropez Tan - $40.00</h3>
-            <h3 class="text-58">Organic 1-3hr wash off Vani-T - $40.00</h3>
-            <h3 class="text-58">Legs 11 Tan - $20.00</h3>
-            <h3 class="text-58">Spray Tan Package (5 x sessions) - $149.00</h3>
-                </div>
-            <div class="text-58">
-                 <h2>Waxing</h2>
-            <h3 class="text-58">Full Legs (includes bikini) - $75.00</h3>
-            <h3 class="text-58">3/4 Legs - $60.00</h3>
-            <h3 class="text-58">1/2 Legs - $50.00</h3>
-            <h3 class="text-58">Full Arms - $45.00</h3>
-            <h3 class="text-58">1/2 Arms - $30.00</h3>
-            <h3 class="text-58">Underarms - $20.00</h3>
-            <h3 class="text-58">Face (includes sides of face/lip & chin) - $45.00</h3>
-            <h3 class="text-58">Face (including brow sculpt) - $65.00</h3>
-            <h3 class="text-58">Face (including brow sculpt & tint) - $75.00</h3>
-            <h3 class="text-58">Bikini - $35.00</h3>
-            <h3 class="text-58">G-String - $45.00</h3>
-            <h3 class="text-58">Brazilian - $70.00</h3>
-            <h3 class="text-58">Chin - $15.00</h3>
-            <h3 class="text-58">Lip - $15.00</h3><br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-    </div>    
-    
-    <!-- Popup Text Body Makeup Prices -->
-<div class="popup" data-popup-id="hairprices">
-    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-    <div class="content popupContent">
-    <div class="container">
-      <div class="wrap spaces">
-        <div class="fix-10-12 left">
-          <h1>Hair & Makeup</h1>
-          <h2>Colours</h2>
-            <h3 class="text-58">Regrowth - From $90.00</h3>
-            <h3 class="text-58">Regrowth to Ends - From $135.00</h3>
-            <h3 class="text-58">Half Head Foils - $150.00</h3>
-            <h3 class="text-58">Full Head Foils - $190.00</h3>
-            <h3 class="text-58">Balayage - $190.00</h3>
-            <h3 class="text-58">Creative Colour - From $140</h3>
-            <h3 class="text-58">Toning - From $40.00</h3><br>
-            <h2>Cuts</h2>
-            <h3 class="text-58">Style Cut & Finish - From $85.00</h3>
-            <h3 class="text-58">Men's Barber Cut - $45.00</h3>
-            <h3 class="text-58">Men's Style Cut - $65.00</h3><br>
-            <h2>Makeup</h2>
-            <h3 class="text-58">Full Face - $99.00</h3>
-            <h3 class="text-58">Bridal - From $129.00</h3>
-            <h3 class="text-58">Brooklyn Eyes - $59.00</h3>
-            <h3 class="text-58">Glamour Lashes - $30.00</h3><br>
-            <h2>Blow Dries</h2>
-            <h3 class="text-58">Classic (Short - Extra Long) - $49.00 - $79.00</h3>
-            <h3 class="text-58">Deluxe (Includes Treament) - From $75.00</h3>
-            <h3 class="text-58">Hacial (Facial, Hair, Treatment & Blow Dry) - From $129.00</h3><br>
-            <h2>Upstyles</h2>
-            <h3 class="text-58">Short - Extra Long (Includes Blow Dry) - $79.00 - $109.00</h3>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-    
-    <!-- Popup Text Nails Prices -->
-<div class="popup" data-popup-id="nailsprices">
-    <div class="close"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use></svg></div>
-    <div class="content popupContent">
-    <div class="container">
-      <div class="wrap spaces">
-        <div class="fix-10-12 left">
-          <h1>Nail Salon</h1>
-            <h2>Manicures</h2>
-            <h3 class="text-58">Express Strengthener - $40.00</h3>
-          <p>Cut/file, matte buff, cuticles pushed/tidy & strengthener.</p>
-          <h3 class="text-58">Express Manicure - $50.00</h3>
-          <p>Cut/file, matte buff, cuticles pushed/tidy & painted.</p>
-            <h3 class="text-58">Express Manicure Gel Polish - $60.00</h3>
-          <p>Cut/file, matte buff, cuticles pushed/tidy & painted.</p>
-            <h3 class="text-58">Classic Manicure - $75.00</h3>
-          <p>Cut/file, matte buff, cuticles pushed/tidy, gentle sugar scrub, arm & hand massage & painted.</p>
-            <h2>Pedicures</h2>
-          <div class="text-58">
-              <h3 class="text-58">Express Pedicure - $50.00</h3>
-              <p>Cut/file, matte buff, cuticles pushed/tidy & painted.</p>
-              <h3 class="text-58">Express Pedicure Gel Polish - $60.00</h3>
-              <p>Cut/file, matte buff, cuticles pushed/tidy & painted.</p>
-              <h3 class="text-58">Classic Pedicure - $85.00</h3>
-              <p>Cut/file, matte buff, cuticles pushed/tidy, gentle sugar scrub, heel smooth, foot massage & painted.</p>
-              <h3 class="text-58">Classic Pedicure Gel Polish - $95.00</h3>
-              <p>Cut/file, matte buff, cuticles pushed/tidy, gentle sugar scrub, heel smooth, foot massage & painted.</p>
-          </div>
-            <h2>Acrylic Nails</h2>
-          <div class="text-58">
-              <h3 class="text-58">Full Set (Overlay) - $90.00</h3>
-              <h3 class="text-58">Full Set Extended (Forms) - $110.00</h3>
-              <h3 class="text-58">Refill (Within 3 weeks) - $80.00</h3>
-          </div>
-            <h2>Gel Nails</h2>
-          <div class="text-58">
-              <h3 class="text-58">Full Set (Overlay) - $90.00</h3>
-              <h3 class="text-58">Full Set Extended (Forms) - $110.00</h3>
-              <h3 class="text-58">Refill (Within 3 weeks) - $80.00</h3>
-              <h3 class="text-58">Acrylic Add-Ons (Gel Polish) - $20.00</h3>
-              <h3 class="text-58">Acrylic Add-Ons (French) - $20.00</h3>
-          </div>
-            <h2>SlickPour Nails</h2>
-          <div class="text-58">
-              <h3 class="text-58">Classic Slick (50 Minutes) - $70.00</h3>
-              <p>Cut/file, cuticles pushed/tidy & powder coat.</p>
-              <h3 class="text-58">Slick Extensions (60 Minutes) - $80.00</h3>
-              <p>Cut/file, cuticles pushed/tidy, extended & powder coat.</p>
-              <h3 class="text-58">Add Polish - $10.00</h3>
-              <h3 class="text-58">Add Shellac/Gel Polish - $20.00</h3>
-              <h3 class="text-58">Add French - $20.00</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div> 
-    
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
 </section>
-    
-<!-- Brisbane Beauty Blog -->
-<section data-name="blog" data-title="Brisbane Beauty Blog" class="slide fade-6 scenic">
+
+<!-- Slide 6 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
   <div class="content">
     <div class="container">
-      <div class="wrap padding-top-phablet-5">
+      <div class="wrap left">
 
-        <div class="fix-12-12">
-          <ul class="flex later">
-            <li class="col-7-12 left ae-1  flex-slide-100">
-
-              <div class="wrap-img-100" style="background-image: url(assets/img/brisbanes-best-brow-salon.jpg);">
-                <div class="blackout"></div>
-                <div class="wrap-text-100">
-                  <h1 class="ae-2">7 Expert Tips From Brisbane Brows Specialists</h1>
-                  <h3 class="ae-3 margin-bottom-3">Hey Brooklyn Beauties, we take brows pretty seriously here a Brisbane’s Best Brow Salon, and so we should because we know you all do too.</h3>
-                  <a href="https://brisbanebeautyblog.com.au/2018/09/03/brisbane-brows-specialists/" title="Brisbane Beauty Blog - 7 Expert Tips From Brisbane Brows Specialists" target="_blank" class="button white ae-4 margin-left-0">Read More</a>
-                </div>
-              </div>
-            </li>
-            <li class="col-5-12 left padding-left-3 padding-left-phablet-0 margin-top-phablet-3">
-              <h2 class="ae-2 small light margin-bottom-3 opacity-8">Recent Posts</h2>
-              <ul class="flex later flex-slide-100">
-                <li class="col-12-12 ae-3 cell-100 rounded margin-bottom-2">
-                  <a href="https://brisbanebeautyblog.com.au/2018/08/12/why-were-addicted-to-polygel/" title="Brisbane Beauty Blog" target="_blank" class="item-100">
-                    <h3>Why We’re Addicted To Polygel</h3>
-                    <p class="tiny opacity-6"><i class="material-icons small-watch">access_time</i><span class="date-small">&nbsp;&nbsp;11 Jun 2018</span></p>
-                  </a>
-                </li>
-                <li class="col-12-12 ae-5 cell-100 rounded margin-bottom-2">
-                  <a href="https://brisbanebeautyblog.com.au/2018/06/25/aqua-luminous-foundation/" title="Brisbane Beauty Blog" target="_blank" class="item-100">
-                    <h3>Aqua Luminous Foundation from Becca Cosmetics</h3>
-                    <p class="tiny opacity-6"><i class="material-icons small-watch">access_time</i><span class="date-small">&nbsp;&nbsp;25 Jun 2018</span></p>
-                  </a>
-                </li>
-                <li class="col-12-12 ae-4 cell-100 rounded">
-                  <a href="https://brisbanebeautyblog.com.au/2018/06/11/how-your-nose-eyes-effect-your-brow-shape/" title="Brisbane Beauty Blog" target="_blank" class="item-100">
-                    <h3>How Your Nose & Eyes Shape Your Brows</h3>
-                    <p class="tiny opacity-6"><i class="material-icons small-watch">access_time</i><span class="date-small">&nbsp;&nbsp;12 Aug 2018</span></p>
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Mens</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
         </div>
 
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(assets/img/background/brisbane-beauty-blog.JPG)"></div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
 </section>
-    
-<!-- Careers -->
-<section data-name="careers" data-title="Careers" class="slide fade-6">
+
+<!-- Slide 7 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
   <div class="content">
     <div class="container">
-      <div class="wrap">
+      <div class="wrap left">
 
-        <div class="fix-10-12">
-          <h1 class="huge ae-1 margin-bottom-2">Careers</h1>
-            <a href="https://goo.gl/forms/OzIQvGpgLQo4yvbx1" title="Brooklyn Beauty Bar Careers"><div class="button small white stroke square cropBottom margin-top-2 ae-2 fromCenter"><i class="material-icons small"><i class='material-icons'>assignment_ind</i></i>APPLY NOW</div></a>
-        </div>
-
-        <div class="fix-12-12">
-          <ul class="flex later margin-top-6 left">
-            <li class="col-6-12 box-88">
-              <div class="quoteBubble opacity-4 ae-4 fromLeft">
-                <p class="cropBottom light">Brooklyn Beauty Bar has provided me with endless opportunities in my beauty career!!</p>
-              </div>
-              <p class="margin-top-3 tiny ae-6 fromRight"><strong>Zoe Maxtone-Graham</strong> <span class="opacity-7">2IC @JAMES ST</span></p>
-            </li>
-            <li class="col-6-12">
-              <ul class="flex fromBottomRight fixedSpaces">
-                <li class="col-6-12 ae-6">
-                  <h3>Partnership Program</h3>
-                  <p class="tiny opacity-6 margin-bottom-3">Our Partnership Program offers leading beauty providers the opportunity to join our team.</p>
-                </li>
-                <li class="col-6-12 ae-7">
-                  <h3>Industry Leading</h3>
-                  <p class="tiny opacity-6 margin-bottom-3">At Brooklyn Beauty Bar we believe that being an industry leader means you must first focus on the quality of your staff.</p>
-                </li>
-                <li class="col-6-12 ae-8">
-                  <h3>Staff Development</h3>
-                  <p class="tiny opacity-6 margin-bottom-3">We pride ourselves on providing one of Australia's most intensive 'In-House' beauty salon employee development programs.</p>
-                </li>
-                <li class="col-6-12 ae-9">
-                  <h3>A Beautiful Culture</h3>
-                  <p class="tiny opacity-6 margin-bottom-3">At Brooklyn Beauty Bar, our mission is to create an energetic, fun and professional beauty salon environment for our staff to work in.</p>
-                </li>
-
-              </ul>
-            </li>
-          </ul>
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Bar</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
         </div>
 
       </div>
     </div>
   </div>
-  <div class="background" style="background-image:url(/assets/img/background/careers-brooklyn-beauty-bar.jpg)"></div>
-</section>    
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
+</section>
 
-<style>
-  .showcase .showcase-container li {
-    transform: translateZ(0); 
-    -webkit-transform: translateZ(0); 
-    -ms-transform: translateZ(0); 
-  }
+<!-- Slide 8 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
 
-  .fix-custom {
-    padding-left: calc(8% + 15px);
-    padding-right: calc(8% + 15px); 
-  }
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Upgrades</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
+        </div>
 
-  @media screen and (min-width: 1024px) and (max-width: 1698px)  {
-    .fix-custom {
-      padding-left: 0%;
-      padding-right: 0%; 
-      max-width: 1800px;
-      left: -50px;
-      width: calc(100% + 100px) !important;
-      position: relative;
-    }
-    .showcase .showcase-container li:nth-child(3n+1) {
-      text-align: right;
-    }
-  }
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
+</section>
 
-  .showcase li .sc {
-    margin-bottom: 50px;
-    color: #858585;
-    font-size: 17px;
-    line-height: 25px;
-    position: relative;
-  }
+<!-- Slide 9 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
 
-  .showcase li .sc-img {
-    font-size: 0;
-    line-height: 0;
-    background: #E8E8E8;
-    padding-top: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    box-shadow: 0 12px 24px rgba(0,0,0,0.4);
-    -webkit-transition: 1s cubic-bezier(0.35, 1.69, 0.35, 0.81);
-    transition: 1s cubic-bezier(0.35, 1.69, 0.35, 0.81);
-  }
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Corporate</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
+        </div>
 
-  .showcase.slide li .sc:hover .sc-img {
-    box-shadow: 0 22px 34px rgba(0,0,0,0.4);  box-shadow: 13px 22px 34px rgba(0,0,0,0.4);
-    -webkit-transform: translateY(-10px) scale(1.025);
-    transform: translateY(-10px) scale(1.025);
-  }
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
+</section>
 
-  /* shiny effect on hover */
-  .showcase.slide li .sc-img:after {
-    content: ":";
-    position: absolute;
-    top: 20px;
-    left: 0;
-    bottom: -1px;
-    right: 0;
-    width: 100%;
+<!-- Slide 10 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
 
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100;White+to+Transparent */
-    background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Careers</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
+        </div>
 
-    opacity: 0;
-    -webkit-transition: 1s cubic-bezier(0.35, 1.69, 0.35, 0.81);
-    transition: 1s cubic-bezier(0.35, 1.69, 0.35, 0.81);
-    border-radius: 0 0 3px 3px;
-  }
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
+</section>
 
-  .showcase.slide li .sc:hover .sc-img:after {
-    opacity: 0.5;
-  }
+<!-- Slide 11 (#15) -->
+<section data-name="beauty" data-title="Beauty Services" class="slide fade-6 selected active animate">
+  <div class="content">
+    <div class="container">
+      <div class="wrap left">
 
-  .showcase.popup li .sc-img {
-    background: #35363a;
-    padding-top: 30px;
-  }
+        <div class="fix-6-12 toLeft">
+          <div class="ae-1 done"><p class="big light margin-bottom-1 opacity-6 uppercase small">Brooklyn Beauty Bar</p></div>
+          <h1 class="huge margin-bottom-1 ae-1 done">Shop</h1>
+          <p class="hero ae-2 margin-bottom-4 done"><span class="opacity-8">Premium beauty services by Brisbanes best beauty salon.</span></p>
+          <a href="https://beautybrisbane.com.au/bbbforms/4" class="button white square uppercase small fromCenter crop ae-3 done">Book Now</a> <a href="https://www.brooklynbeautybar.com.au/#prices" class="button white square stroke uppercase small crop ae-4 fromCenter done">Prices</a>
+        </div>
 
-  .showcase li .sc-img img {
-    margin-bottom: -1px;
-    border-radius: 0 0 3px 3px;
-  }
-
-  .showcase.popup li .sc-img a:hover {
-    opacity: 1;
-  }
-
-  .showcase.popup li .sc-img a:before {
-    content: 'remove_red_eye';
-    background: rgba(0,0,0,0.2);
-    top: 30px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    -webkit-transition: 0.25s;
-    transition: 0.35s;
-  }
-
-  .showcase.popup li .sc-img:hover a:before {
-    opacity: 0;
-  }
-
-  .showcase li .sc-img:before {
-    content: "...";
-    position: absolute;
-    font-size: 45px;
-    color: #fff;
-    top: -4px;
-    line-height: 0;
-    letter-spacing: -2px;
-    left: 4px;
-  }
-
-  /* popup */
-  .showcase.popup li .sc-img:before {
-    font-size: 50px;
-    top: 0px;
-    left: 9px;
-  }
-
-  .showcase li .sc strong {
-    display: block;
-    color: #ffffff;
-    margin-top: 10px;
-  }
-
-  .slide.showcase li .sc:after {
-    content: attr(data-hover-text);
-    position: absolute;
-    top: calc(50% - 50px);
-    left: 50%;
-    right: inherit;
-    background: #fff;
-    border-radius: 50px;
-    padding: 8px 21px;
-    opacity: 0;
-    -webkit-transform: translateY(-10px) scale(1.025) translateX(-50%);
-    transform: translateY(-10px) scale(1.025) translateX(-50%);
-    -webkit-transition: 1s cubic-bezier(0.35,1.69,0.35,0.81);
-    transition: 1s cubic-bezier(0.35,1.69,0.35,0.81);
-  }
-
-  .slide.showcase li .sc:hover:after {
-    opacity: 1;
-    -webkit-transform: translateY(0px) translateX(-50%);
-    transform: translateY(0px) translateX(-50%);
-  }
-
-  .showcase-container {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .showcase-container.controller li.selected {
-    cursor: pointer;
-    pointer-events: all;
-  }
-
-  .popup[data-popup-id="showcase"] .slider > li.selected {
-    -webkit-animation: 0.5s fade-6In;
-    animation: 0.5s fade-6In;
-  }
-
-  .fix-custom-popup {
-    max-width: 1480px !important;
-  }
-</style>
+      </div>
+    </div>
+  </div>
+  <div class="background" style="background-image:url(assets/img/background/brands-brisbane-beauty.JPG)"></div>
+</section>
 
 <!-- Salon Brands -->
-<section data-name="brands" data-title="Salon Brands" class="slide fade-6 scenic">
+<section data-name="brands" data-title="Salon Brands" class="slide fade-6">
   <div class="content">
     <div class="container">
       <div class="wrap">
@@ -1413,19 +673,25 @@
                 <p class="tiny"><a href="https://www.google.com.au/maps/place/Brooklyn+Beauty+Bar+-+James+St/@-27.456328,153.0389498,15z/data=!4m2!3m1!1s0x0:0xe21d92f82e8cc874?sa=X&ved=2ahUKEwjD1pm6ofjhAhUYfH0KHXpjAhoQ_BIwDHoECAkQCA" title="Brooklyn Beauty Bar - James Street" target="_blank" class="opacity-8">5/15 James Street, Fortitude Valley</a></p>
               </div>
             </li>
-            <li class="col-4-12 ae-4">
+            <li class="col-4-12 ae-5">
               <div class="fix-3-12 equalElement">
-                <h6 class="uppercase margin-top-3 margin-bottom-2">Opening Hours</h6></div>
-                <a class="button uppercase small stroke square white dropdownTrigger" data-dropdown-id="hours">SALON HOURS</a>
+                <h6 class="uppercase margin-top-3 margin-bottom-2">Stay in touch</h6>
+                <ul class="social-circles">
+                  <li><a class="social-googlePlus" href="https://plus.google.com/u/3/118112542108283229455"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#googlePlus"></use></svg></a></li>
+                  <li><a class="social-facebook" href="https://facebook.com/brooklynbeautybar" title="@brooklynbeautybar - Facebook"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use></svg></a></li>
+                  <li><a class="social-twitter" href="https://twitter.com/bklynbeautybar" title="@bklynbeautybar - Twitter"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use></svg></a></li>
+                  <li><a class="social-instagram" href="https://instagram.com/brooklynbeautybar" title="@brooklynbeautybar - Instagram"><svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use></svg></a></li>
+                </ul>
+              </div>
             </li>
             <li class="col-4-12 ae-5">
               <div class="fix-3-12 equalElement">
                 <h6 class="uppercase margin-top-3 margin-bottom-2">Any Questions?</h6>
-                <p class="tiny"><a class="button small stroke square white dropdownTrigger" data-dropdown-id="telephone">CALL OR TEXT</a></p>
+                <p class="tiny"><a class="button small stroke square uppercase gradient white dropdownTrigger crop" data-dropdown-id="telephone">CALL OR TEXT</a></p>
               </div>
               <div class="fix-3-12 equalElement">
-                <h6 class="uppercase margin-top-3 margin-bottom-2" title="Make a booking">Make a Booking</h6>
-                <p class="tiny"><a href="https://beautybrisbane.com.au/bbbforms/4" class="button small stroke square white" title="Make a Booking with Brooklyn Beauty Bar">BOOK ONLINE</a></p>
+                <h6 class="uppercase margin-top-3 margin-bottom-2" title="Make a booking">Open Hours</h6>
+                <p class="tiny"><a class="button uppercase crop gradient small stroke square white dropdownTrigger" data-dropdown-id="hours">SALON HOURS</a></p>
               </div>
             </li>
           </ul>
@@ -1487,7 +753,7 @@
     <div class="container">
       <div class="wrap">
         <div class="popupContent embedVideo">
-          <iframe defer src="/services.html" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
+          <iframe defer src="/womens-services.html" frameborder="0" scrolling="auto" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation"></iframe>
         </div>
       </div>
     </div>
@@ -1589,17 +855,15 @@
           <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/12">Upgrades & Bundles</a></li><br>
           <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/4">Beauty Services</a></li><br>
           <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/6">Cosmetic Clinic</a></li><br>
+          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/11">Doubles & Couples</a></li><br>
           <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/9">Hair & Makeup</a></li><br>
           <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/5">Men's Grooming</a></li><br>
-          <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/11">Doubles & Couples</a></li><br>
           <li class="link"><a href="https://beautybrisbane.com.au/bbbforms/8">Parties & Groups</a></li><br>
-        <li class="link"><a href="https://virgin.brooklynbeautybar.com.au/">Virgin Australia</a></li>
+          <li class="link"><a href="https://virgin.brooklynbeautybar.com.au/">Virgin Australia</a></li>
       </ul>
     </li>
     </ul>
 </div>    
-
-<script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>    
-    
+   
 </body>
 </html>
