@@ -1,8 +1,0 @@
-/* Morph Button Style: Modal */
-.morph-button-modal::before {
-	display: none !important;
-}
-
-.morph-button-modal.open::before {
-	display: block !important;
-}
