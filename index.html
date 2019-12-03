@@ -72,7 +72,14 @@ var r=["identify","goal","updateUserData","start","stop","refresh","show","hide"
 i={},n=0;n<r.length;n++){var a=r[n];i[a]=function(t){return function(){var e=Array.prototype.slice.call(arguments);
 window.Tooltip.cs.push({method:t,args:e})}}(a)}window.Tooltip.API=i;var n=t.createElement(e),s=t.getElementsByTagName(e)[0];
 n.type="text/javascript",n.async=o.async,s.parentNode.insertBefore(n,s),n.src=o.url}(document,"script");
-</script>    
+</script>
+
+<script>
+window.hyperConfig = window.hyperConfig || [];
+function setupHyper() { hyperConfig.push(arguments); }
+setupHyper('js', new Date());
+setupHyper('config', 'f2xras');
+</script>
     
 <!-- Fonts and Material Icons -->
 	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,600,800|Playfair Display:400|Material+Icons"/>
